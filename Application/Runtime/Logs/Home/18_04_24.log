@@ -1,0 +1,1687 @@
+[ 2018-04-24T14:06:49+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001816s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002395s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0246s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0164s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0087s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`promote_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `promote_price` > 0 AND `promote_start_date` <= '2018-04-24 14:06' AND `promote_end_date` >= '2018-04-24 14:06' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0280s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_new` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0008s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_hot` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0007s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_best` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000340s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000615s ]
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.180504s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.181233s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001619s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001874s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002077s ]
+
+[ 2018-04-24T14:08:29+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001530s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0082s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`promote_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `promote_price` > 0 AND `promote_start_date` <= '2018-04-24 14:08' AND `promote_end_date` >= '2018-04-24 14:08' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0008s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_new` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_hot` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_best` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000388s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000632s ]
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049179s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049398s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000925s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001584s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001910s ]
+
+[ 2018-04-24T14:09:31+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001154s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0075s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`promote_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `promote_price` > 0 AND `promote_start_date` <= '2018-04-24 14:09' AND `promote_end_date` >= '2018-04-24 14:09' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0009s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_new` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0006s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_hot` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0009s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_best` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000347s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000718s ]
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048298s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048506s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001156s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001557s ]
+
+[ 2018-04-24T14:20:40+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000987s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001397s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0088s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0082s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`promote_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `promote_price` > 0 AND `promote_start_date` <= '2018-04-24 14:20' AND `promote_end_date` >= '2018-04-24 14:20' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_new` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_hot` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_best` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant 是 - assumed '是' F:\weblx\www\php39ds\Application\Admin\Model\CategoryModel.class.php 第 153 行.
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = 0 AND `is_floor` = '是'  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000351s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000578s ]
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined variable: floorData F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 462 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 462 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047836s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048073s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000995s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001939s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002190s ]
+
+[ 2018-04-24T14:22:37+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001604s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0077s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`promote_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `promote_price` > 0 AND `promote_start_date` <= '2018-04-24 14:22' AND `promote_end_date` >= '2018-04-24 14:22' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0014s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_new` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_hot` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_best` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant 是 - assumed '是' F:\weblx\www\php39ds\Application\Admin\Model\CategoryModel.class.php 第 153 行.
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = 0 AND `is_floor` = '是'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000351s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000579s ]
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058345s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000924s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001783s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001177s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001428s ]
+
+[ 2018-04-24T14:24:35+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001536s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0094s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`promote_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `promote_price` > 0 AND `promote_start_date` <= '2018-04-24 14:24' AND `promote_end_date` >= '2018-04-24 14:24' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_new` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_hot` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_best` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant 是 - assumed '是' F:\weblx\www\php39ds\Application\Admin\Model\CategoryModel.class.php 第 153 行.
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = 0 AND `is_floor` = '是'  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000360s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000590s ]
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047076s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047288s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000826s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001753s ]
+
+[ 2018-04-24T16:19:49+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000920s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001504s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0069s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0091s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`promote_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `promote_price` > 0 AND `promote_start_date` <= '2018-04-24 16:19' AND `promote_end_date` >= '2018-04-24 16:19' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0201s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_new` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_hot` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0006s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_best` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant 是 - assumed '是' F:\weblx\www\php39ds\Application\Admin\Model\CategoryModel.class.php 第 153 行.
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = 0 AND `is_floor` = '是'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '否'  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '2' AND `is_floor` = '否'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '12' AND `is_floor` = '否'  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000381s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000603s ]
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046114s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002010s ]
+
+[ 2018-04-24T16:20:59+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001429s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0079s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`promote_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `promote_price` > 0 AND `promote_start_date` <= '2018-04-24 16:20' AND `promote_end_date` >= '2018-04-24 16:20' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0008s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_new` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_hot` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_best` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant 是 - assumed '是' F:\weblx\www\php39ds\Application\Admin\Model\CategoryModel.class.php 第 153 行.
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = 0 AND `is_floor` = '是'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '否'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '2' AND `is_floor` = '否'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '12' AND `is_floor` = '否'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000356s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000591s ]
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053152s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053367s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001606s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001818s ]
+
+[ 2018-04-24T16:27:21+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001913s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001535s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0078s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`promote_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `promote_price` > 0 AND `promote_start_date` <= '2018-04-24 16:27' AND `promote_end_date` >= '2018-04-24 16:27' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0009s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_new` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_hot` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_best` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant 是 - assumed '是' F:\weblx\www\php39ds\Application\Admin\Model\CategoryModel.class.php 第 153 行.
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = 0 AND `is_floor` = '是'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '否'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '是'  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '2' AND `is_floor` = '否'  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '2' AND `is_floor` = '是'  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '12' AND `is_floor` = '否'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '12' AND `is_floor` = '是'  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000371s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000611s ]
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050050s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050260s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001582s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001792s ]
+
+[ 2018-04-24T16:28:20+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001320s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0079s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0126s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`promote_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `promote_price` > 0 AND `promote_start_date` <= '2018-04-24 16:28' AND `promote_end_date` >= '2018-04-24 16:28' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0009s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_new` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_hot` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_best` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant 是 - assumed '是' F:\weblx\www\php39ds\Application\Admin\Model\CategoryModel.class.php 第 153 行.
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = 0 AND `is_floor` = '是'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '否'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '是'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '2' AND `is_floor` = '否'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '2' AND `is_floor` = '是'  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '12' AND `is_floor` = '否'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '12' AND `is_floor` = '是'  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000371s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000615s ]
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045976s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046185s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000955s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001877s ]
+
+[ 2018-04-24T16:28:55+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001870s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0081s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`promote_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `promote_price` > 0 AND `promote_start_date` <= '2018-04-24 16:28' AND `promote_end_date` >= '2018-04-24 16:28' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_new` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_hot` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_best` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant 是 - assumed '是' F:\weblx\www\php39ds\Application\Admin\Model\CategoryModel.class.php 第 153 行.
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = 0 AND `is_floor` = '是'  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '否'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '是'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '2' AND `is_floor` = '否'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '2' AND `is_floor` = '是'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '12' AND `is_floor` = '否'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '12' AND `is_floor` = '是'  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000797s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001068s ]
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048653s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001433s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002186s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002550s ]
+
+[ 2018-04-24T16:51:38+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000931s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002197s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0087s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`promote_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `promote_price` > 0 AND `promote_start_date` <= '2018-04-24 16:51' AND `promote_end_date` >= '2018-04-24 16:51' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0009s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_new` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_hot` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_best` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant 是 - assumed '是' F:\weblx\www\php39ds\Application\Admin\Model\CategoryModel.class.php 第 153 行.
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = 0 AND `is_floor` = '是'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '否'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '是'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0077s ]
+ERR: Think\Model:getChildren方法不存在！
+
+[ 2018-04-24T16:55:24+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000902s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002035s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0076s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`promote_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `promote_price` > 0 AND `promote_start_date` <= '2018-04-24 16:55' AND `promote_end_date` >= '2018-04-24 16:55' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0009s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_new` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_hot` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_best` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant 是 - assumed '是' F:\weblx\www\php39ds\Application\Admin\Model\CategoryModel.class.php 第 153 行.
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = 0 AND `is_floor` = '是'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '否'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '是'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `p39_goods` WHERE `cat_id` IN ('19')  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `p39_goods_cat` [ RunTime:0.0067s ]
+SQL: SELECT DISTINCT goods_id id FROM `p39_goods_cat` WHERE `cat_id` IN ('19')  [ RunTime:0.0447s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY sort_num ASC' at line 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN () ORDER BY sort_num ASC 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY sort_num ASC' at line 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN () ORDER BY sort_num ASC 
+
+[ 2018-04-24T16:57:32+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000958s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001424s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0078s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`promote_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `promote_price` > 0 AND `promote_start_date` <= '2018-04-24 16:57' AND `promote_end_date` >= '2018-04-24 16:57' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0013s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_new` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_hot` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_best` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant 是 - assumed '是' F:\weblx\www\php39ds\Application\Admin\Model\CategoryModel.class.php 第 153 行.
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = 0 AND `is_floor` = '是'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '否'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '是'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `p39_goods` WHERE `cat_id` IN ('19')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p39_goods_cat` [ RunTime:0.0065s ]
+SQL: SELECT DISTINCT goods_id id FROM `p39_goods_cat` WHERE `cat_id` IN ('19')  [ RunTime:0.0008s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY sort_num ASC' at line 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN () ORDER BY sort_num ASC 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY sort_num ASC' at line 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN () ORDER BY sort_num ASC 
+
+[ 2018-04-24T16:57:44+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000986s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001796s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0077s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`promote_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `promote_price` > 0 AND `promote_start_date` <= '2018-04-24 16:57' AND `promote_end_date` >= '2018-04-24 16:57' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_new` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_hot` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_best` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant 是 - assumed '是' F:\weblx\www\php39ds\Application\Admin\Model\CategoryModel.class.php 第 153 行.
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = 0 AND `is_floor` = '是'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '否'  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '是'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `p39_goods` WHERE `cat_id` IN ('19')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p39_goods_cat` [ RunTime:0.0064s ]
+SQL: SELECT DISTINCT goods_id id FROM `p39_goods_cat` WHERE `cat_id` IN ('19')  [ RunTime:0.0004s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY sort_num ASC' at line 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN () ORDER BY sort_num ASC 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY sort_num ASC' at line 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN () ORDER BY sort_num ASC 
+
+[ 2018-04-24T16:58:43+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000962s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001520s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0076s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`promote_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `promote_price` > 0 AND `promote_start_date` <= '2018-04-24 16:58' AND `promote_end_date` >= '2018-04-24 16:58' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0007s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_new` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_hot` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_best` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant 是 - assumed '是' F:\weblx\www\php39ds\Application\Admin\Model\CategoryModel.class.php 第 153 行.
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = 0 AND `is_floor` = '是'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '否'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '是'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `p39_goods` WHERE `cat_id` IN ('19')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `p39_goods_cat` [ RunTime:0.0070s ]
+SQL: SELECT DISTINCT goods_id id FROM `p39_goods_cat` WHERE `cat_id` IN ('19')  [ RunTime:0.0003s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY sort_num ASC' at line 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN () ORDER BY sort_num ASC 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY sort_num ASC' at line 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN () ORDER BY sort_num ASC 
+
+[ 2018-04-24T17:00:54+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002567s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0077s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`promote_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `promote_price` > 0 AND `promote_start_date` <= '2018-04-24 17:00' AND `promote_end_date` >= '2018-04-24 17:00' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0213s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_new` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0008s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_hot` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_best` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant 是 - assumed '是' F:\weblx\www\php39ds\Application\Admin\Model\CategoryModel.class.php 第 153 行.
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = 0 AND `is_floor` = '是'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '否'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '是'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `p39_goods` WHERE `cat_id` IN ('19')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p39_goods_cat` [ RunTime:0.0068s ]
+SQL: SELECT DISTINCT goods_id id FROM `p39_goods_cat` WHERE `cat_id` IN ('19')  [ RunTime:0.0004s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY sort_num ASC' at line 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN () ORDER BY sort_num ASC 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY sort_num ASC' at line 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN () ORDER BY sort_num ASC 
+
+[ 2018-04-24T17:01:48+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001908s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0078s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`promote_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `promote_price` > 0 AND `promote_start_date` <= '2018-04-24 17:01' AND `promote_end_date` >= '2018-04-24 17:01' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0008s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_new` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_hot` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_best` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant 是 - assumed '是' F:\weblx\www\php39ds\Application\Admin\Model\CategoryModel.class.php 第 153 行.
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = 0 AND `is_floor` = '是'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '否'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '是'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `p39_goods` WHERE `cat_id` IN ('19')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p39_goods_cat` [ RunTime:0.0073s ]
+SQL: SELECT DISTINCT goods_id id FROM `p39_goods_cat` WHERE `cat_id` IN ('19')  [ RunTime:0.0003s ]
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed F:\weblx\www\php39ds\ThinkPHP\Library\Think\Db\Driver.class.php 第 578 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY sort_num ASC' at line 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN () ORDER BY sort_num ASC 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY sort_num ASC' at line 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN () ORDER BY sort_num ASC 
+
+[ 2018-04-24T17:03:30+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000920s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001414s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0087s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`promote_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `promote_price` > 0 AND `promote_start_date` <= '2018-04-24 17:03' AND `promote_end_date` >= '2018-04-24 17:03' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0011s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_new` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_hot` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_best` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant 是 - assumed '是' F:\weblx\www\php39ds\Application\Admin\Model\CategoryModel.class.php 第 153 行.
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = 0 AND `is_floor` = '是'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '否'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '是'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `p39_goods` WHERE `cat_id` IN ('19')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p39_goods_cat` [ RunTime:0.0059s ]
+SQL: SELECT DISTINCT goods_id id FROM `p39_goods_cat` WHERE `cat_id` IN ('19')  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN (19,20) ORDER BY sort_num ASC  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `p39_goods` WHERE `cat_id` IN ('20')  [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT goods_id id FROM `p39_goods_cat` WHERE `cat_id` IN ('20')  [ RunTime:0.0012s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN (19,20) ORDER BY sort_num ASC  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '2' AND `is_floor` = '否'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '2' AND `is_floor` = '是'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '12' AND `is_floor` = '否'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '12' AND `is_floor` = '是'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000358s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000599s ]
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048848s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049076s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001644s ]
+
+[ 2018-04-24T17:03:58+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000861s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002335s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0065s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`promote_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `promote_price` > 0 AND `promote_start_date` <= '2018-04-24 17:03' AND `promote_end_date` >= '2018-04-24 17:03' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_new` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_hot` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_best` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant 是 - assumed '是' F:\weblx\www\php39ds\Application\Admin\Model\CategoryModel.class.php 第 153 行.
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = 0 AND `is_floor` = '是'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '否'  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '是'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `p39_goods` WHERE `cat_id` IN ('19')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p39_goods_cat` [ RunTime:0.0076s ]
+SQL: SELECT DISTINCT goods_id id FROM `p39_goods_cat` WHERE `cat_id` IN ('19')  [ RunTime:0.0004s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY sort_num ASC' at line 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN () ORDER BY sort_num ASC 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY sort_num ASC' at line 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN () ORDER BY sort_num ASC 
+
+[ 2018-04-24T17:04:26+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001514s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0065s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0074s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`promote_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `promote_price` > 0 AND `promote_start_date` <= '2018-04-24 17:04' AND `promote_end_date` >= '2018-04-24 17:04' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0011s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_new` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0008s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_hot` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_best` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant 是 - assumed '是' F:\weblx\www\php39ds\Application\Admin\Model\CategoryModel.class.php 第 153 行.
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = 0 AND `is_floor` = '是'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '否'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '是'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `p39_goods` WHERE `cat_id` IN ('19')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p39_goods_cat` [ RunTime:0.0064s ]
+SQL: SELECT DISTINCT goods_id id FROM `p39_goods_cat` WHERE `cat_id` IN ('19')  [ RunTime:0.0003s ]
+
+[ 2018-04-24T17:05:10+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002119s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0075s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`promote_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `promote_price` > 0 AND `promote_start_date` <= '2018-04-24 17:05' AND `promote_end_date` >= '2018-04-24 17:05' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0009s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_new` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_hot` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_best` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant 是 - assumed '是' F:\weblx\www\php39ds\Application\Admin\Model\CategoryModel.class.php 第 153 行.
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = 0 AND `is_floor` = '是'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '否'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '是'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `p39_goods` WHERE `cat_id` IN ('19')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p39_goods_cat` [ RunTime:0.0074s ]
+SQL: SELECT DISTINCT goods_id id FROM `p39_goods_cat` WHERE `cat_id` IN ('19')  [ RunTime:0.0003s ]
+
+[ 2018-04-24T17:08:43+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000930s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001446s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0073s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`promote_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `promote_price` > 0 AND `promote_start_date` <= '2018-04-24 17:08' AND `promote_end_date` >= '2018-04-24 17:08' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0008s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_new` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_hot` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_best` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant 是 - assumed '是' F:\weblx\www\php39ds\Application\Admin\Model\CategoryModel.class.php 第 153 行.
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = 0 AND `is_floor` = '是'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '否'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '是'  [ RunTime:0.0005s ]
+
+[ 2018-04-24T17:09:25+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001476s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0073s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`promote_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `promote_price` > 0 AND `promote_start_date` <= '2018-04-24 17:09' AND `promote_end_date` >= '2018-04-24 17:09' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0008s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_new` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_hot` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_best` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant 是 - assumed '是' F:\weblx\www\php39ds\Application\Admin\Model\CategoryModel.class.php 第 153 行.
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = 0 AND `is_floor` = '是'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '否'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '是'  [ RunTime:0.0004s ]
+
+[ 2018-04-24T17:09:30+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001176s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0079s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`promote_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `promote_price` > 0 AND `promote_start_date` <= '2018-04-24 17:09' AND `promote_end_date` >= '2018-04-24 17:09' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_new` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_hot` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_best` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant 是 - assumed '是' F:\weblx\www\php39ds\Application\Admin\Model\CategoryModel.class.php 第 153 行.
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = 0 AND `is_floor` = '是'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '否'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '是'  [ RunTime:0.0004s ]
+
+[ 2018-04-24T17:11:06+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001421s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0083s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`promote_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `promote_price` > 0 AND `promote_start_date` <= '2018-04-24 17:11' AND `promote_end_date` >= '2018-04-24 17:11' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0008s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_new` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_hot` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_best` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant 是 - assumed '是' F:\weblx\www\php39ds\Application\Admin\Model\CategoryModel.class.php 第 153 行.
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = 0 AND `is_floor` = '是'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '否'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '是'  [ RunTime:0.0003s ]
+
+[ 2018-04-24T17:13:09+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001019s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0072s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0077s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`promote_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `promote_price` > 0 AND `promote_start_date` <= '2018-04-24 17:13' AND `promote_end_date` >= '2018-04-24 17:13' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0013s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_new` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_hot` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_best` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant 是 - assumed '是' F:\weblx\www\php39ds\Application\Admin\Model\CategoryModel.class.php 第 153 行.
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = 0 AND `is_floor` = '是'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '否'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '是'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `p39_goods` WHERE `cat_id` IN ('19')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `p39_goods_cat` [ RunTime:0.0083s ]
+SQL: SELECT DISTINCT goods_id id FROM `p39_goods_cat` WHERE `cat_id` IN ('19')  [ RunTime:0.0003s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY sort_num ASC' at line 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN () ORDER BY sort_num ASC 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY sort_num ASC' at line 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN () ORDER BY sort_num ASC 
+
+[ 2018-04-24T17:14:14+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001948s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0072s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0075s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`promote_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `promote_price` > 0 AND `promote_start_date` <= '2018-04-24 17:14' AND `promote_end_date` >= '2018-04-24 17:14' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_new` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_hot` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_best` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant 是 - assumed '是' F:\weblx\www\php39ds\Application\Admin\Model\CategoryModel.class.php 第 153 行.
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = 0 AND `is_floor` = '是'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '否'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '是'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `p39_goods` WHERE `cat_id` IN ('19')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p39_goods_cat` [ RunTime:0.0078s ]
+SQL: SELECT DISTINCT goods_id id FROM `p39_goods_cat` WHERE `cat_id` IN ('19')  [ RunTime:0.0003s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY sort_num ASC' at line 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN () ORDER BY sort_num ASC 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY sort_num ASC' at line 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN () ORDER BY sort_num ASC 
+
+[ 2018-04-24T17:15:52+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000846s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001253s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0106s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`promote_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `promote_price` > 0 AND `promote_start_date` <= '2018-04-24 17:15' AND `promote_end_date` >= '2018-04-24 17:15' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0009s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_new` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_hot` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_best` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant 是 - assumed '是' F:\weblx\www\php39ds\Application\Admin\Model\CategoryModel.class.php 第 153 行.
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = 0 AND `is_floor` = '是'  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '否'  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '是'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `p39_goods` WHERE `cat_id` IN ('19')  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `p39_goods_cat` [ RunTime:0.0066s ]
+SQL: SELECT DISTINCT goods_id id FROM `p39_goods_cat` WHERE `cat_id` IN ('19')  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN ('18') ORDER BY sort_num ASC  [ RunTime:0.0044s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0021s ]
+SQL: SELECT `id` FROM `p39_goods` WHERE `cat_id` IN ('20')  [ RunTime:0.0007s ]
+SQL: SELECT DISTINCT goods_id id FROM `p39_goods_cat` WHERE `cat_id` IN ('20')  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN ('19') ORDER BY sort_num ASC  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '2' AND `is_floor` = '否'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '2' AND `is_floor` = '是'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '12' AND `is_floor` = '否'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '12' AND `is_floor` = '是'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000597s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000834s ]
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052488s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000993s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001847s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002339s ]
+
+[ 2018-04-24T17:19:52+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001435s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0082s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`promote_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `promote_price` > 0 AND `promote_start_date` <= '2018-04-24 17:19' AND `promote_end_date` >= '2018-04-24 17:19' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0009s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_new` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_hot` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_best` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant 是 - assumed '是' F:\weblx\www\php39ds\Application\Admin\Model\CategoryModel.class.php 第 153 行.
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = 0 AND `is_floor` = '是'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '否'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '是'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `p39_goods` WHERE `cat_id` IN ('19')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p39_goods_cat` [ RunTime:0.0063s ]
+SQL: SELECT DISTINCT goods_id id FROM `p39_goods_cat` WHERE `cat_id` IN ('19')  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN ('18') ORDER BY sort_num ASC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `p39_goods` WHERE `cat_id` IN ('20')  [ RunTime:0.0003s ]
+SQL: SELECT DISTINCT goods_id id FROM `p39_goods_cat` WHERE `cat_id` IN ('20')  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN ('19') ORDER BY sort_num ASC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '2' AND `is_floor` = '否'  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '2' AND `is_floor` = '是'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '12' AND `is_floor` = '否'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '12' AND `is_floor` = '是'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000360s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000613s ]
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046727s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046951s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000969s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002031s ]
+
+[ 2018-04-24T17:30:38+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000890s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001578s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0092s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`promote_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `promote_price` > 0 AND `promote_start_date` <= '2018-04-24 17:30' AND `promote_end_date` >= '2018-04-24 17:30' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0009s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_new` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_hot` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_best` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant 是 - assumed '是' F:\weblx\www\php39ds\Application\Admin\Model\CategoryModel.class.php 第 153 行.
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = 0 AND `is_floor` = '是'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '否'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '是'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `p39_goods` WHERE `cat_id` IN ('19')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p39_goods_cat` [ RunTime:0.0072s ]
+SQL: SELECT DISTINCT goods_id id FROM `p39_goods_cat` WHERE `cat_id` IN ('19')  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN ('18') ORDER BY sort_num ASC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `p39_goods` WHERE `cat_id` IN ('20')  [ RunTime:0.0003s ]
+SQL: SELECT DISTINCT goods_id id FROM `p39_goods_cat` WHERE `cat_id` IN ('20')  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN ('19') ORDER BY sort_num ASC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '2' AND `is_floor` = '否'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '2' AND `is_floor` = '是'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '12' AND `is_floor` = '否'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '12' AND `is_floor` = '是'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000310s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000531s ]
+
+[ 2018-04-24T17:32:55+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001563s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0071s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`promote_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `promote_price` > 0 AND `promote_start_date` <= '2018-04-24 17:32' AND `promote_end_date` >= '2018-04-24 17:32' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0009s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_new` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_hot` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_best` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant 是 - assumed '是' F:\weblx\www\php39ds\Application\Admin\Model\CategoryModel.class.php 第 153 行.
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = 0 AND `is_floor` = '是'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '否'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '是'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `p39_goods` WHERE `cat_id` IN ('19')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p39_goods_cat` [ RunTime:0.0080s ]
+SQL: SELECT DISTINCT goods_id id FROM `p39_goods_cat` WHERE `cat_id` IN ('19')  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN ('18') ORDER BY sort_num ASC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `p39_goods` WHERE `cat_id` IN ('20')  [ RunTime:0.0002s ]
+SQL: SELECT DISTINCT goods_id id FROM `p39_goods_cat` WHERE `cat_id` IN ('20')  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN ('19') ORDER BY sort_num ASC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '2' AND `is_floor` = '否'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '2' AND `is_floor` = '是'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '12' AND `is_floor` = '否'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '12' AND `is_floor` = '是'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000312s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000544s ]
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045661s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045890s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001656s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001868s ]
+
+[ 2018-04-24T17:34:04+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000908s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002155s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0114s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0091s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`promote_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `promote_price` > 0 AND `promote_start_date` <= '2018-04-24 17:34' AND `promote_end_date` >= '2018-04-24 17:34' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0008s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_new` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0006s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_hot` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0007s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_best` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant 是 - assumed '是' F:\weblx\www\php39ds\Application\Admin\Model\CategoryModel.class.php 第 153 行.
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = 0 AND `is_floor` = '是'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '否'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '是'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `p39_goods` WHERE `cat_id` IN ('19')  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `p39_goods_cat` [ RunTime:0.0069s ]
+SQL: SELECT DISTINCT goods_id id FROM `p39_goods_cat` WHERE `cat_id` IN ('19')  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN ('18') ORDER BY sort_num ASC  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `p39_goods` WHERE `cat_id` IN ('20')  [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT goods_id id FROM `p39_goods_cat` WHERE `cat_id` IN ('20')  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN ('19') ORDER BY sort_num ASC  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '2' AND `is_floor` = '否'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '2' AND `is_floor` = '是'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '12' AND `is_floor` = '否'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '12' AND `is_floor` = '是'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000324s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000551s ]
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042634s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042859s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000895s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001073s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001742s ]
+
+[ 2018-04-24T17:35:00+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001427s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0072s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0087s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`promote_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `promote_price` > 0 AND `promote_start_date` <= '2018-04-24 17:34' AND `promote_end_date` >= '2018-04-24 17:34' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0007s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_new` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_hot` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_best` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant 是 - assumed '是' F:\weblx\www\php39ds\Application\Admin\Model\CategoryModel.class.php 第 153 行.
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = 0 AND `is_floor` = '是'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '否'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '是'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `p39_goods` WHERE `cat_id` IN ('19')  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `p39_goods_cat` [ RunTime:0.0062s ]
+SQL: SELECT DISTINCT goods_id id FROM `p39_goods_cat` WHERE `cat_id` IN ('19')  [ RunTime:0.0007s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN ('18') ORDER BY sort_num ASC  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `p39_goods` WHERE `cat_id` IN ('20')  [ RunTime:0.0006s ]
+SQL: SELECT DISTINCT goods_id id FROM `p39_goods_cat` WHERE `cat_id` IN ('20')  [ RunTime:0.0012s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN ('19') ORDER BY sort_num ASC  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '2' AND `is_floor` = '否'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '2' AND `is_floor` = '是'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '12' AND `is_floor` = '否'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '12' AND `is_floor` = '是'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000334s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000660s ]
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047629s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047861s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001203s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001568s ]
+
+[ 2018-04-24T17:35:43+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001202s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0074s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`promote_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `promote_price` > 0 AND `promote_start_date` <= '2018-04-24 17:35' AND `promote_end_date` >= '2018-04-24 17:35' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_new` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0006s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_hot` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0006s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_best` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0016s ]
+NOTIC: [8] Use of undefined constant 是 - assumed '是' F:\weblx\www\php39ds\Application\Admin\Model\CategoryModel.class.php 第 153 行.
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = 0 AND `is_floor` = '是'  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '否'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '是'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `p39_goods` WHERE `cat_id` IN ('19')  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `p39_goods_cat` [ RunTime:0.0062s ]
+SQL: SELECT DISTINCT goods_id id FROM `p39_goods_cat` WHERE `cat_id` IN ('19')  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN ('18') ORDER BY sort_num ASC  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `p39_goods` WHERE `cat_id` IN ('20')  [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT goods_id id FROM `p39_goods_cat` WHERE `cat_id` IN ('20')  [ RunTime:0.0006s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN ('19') ORDER BY sort_num ASC  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '2' AND `is_floor` = '否'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '2' AND `is_floor` = '是'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '12' AND `is_floor` = '否'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '12' AND `is_floor` = '是'  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000319s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000560s ]
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050363s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001657s ]
+
+[ 2018-04-24T17:41:41+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002033s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0069s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0088s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`promote_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `promote_price` > 0 AND `promote_start_date` <= '2018-04-24 17:41' AND `promote_end_date` >= '2018-04-24 17:41' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0013s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_new` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0008s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_hot` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0014s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_best` = '是' ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.0014s ]
+NOTIC: [8] Use of undefined constant 是 - assumed '是' F:\weblx\www\php39ds\Application\Admin\Model\CategoryModel.class.php 第 153 行.
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = 0 AND `is_floor` = '是'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '否'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '是'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `p39_goods` WHERE `cat_id` IN ('19')  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `p39_goods_cat` [ RunTime:0.0063s ]
+SQL: SELECT DISTINCT goods_id id FROM `p39_goods_cat` WHERE `cat_id` IN ('19')  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN ('18','20') ORDER BY sort_num ASC  [ RunTime:0.0028s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `p39_goods` WHERE `cat_id` IN ('20')  [ RunTime:0.0016s ]
+SQL: SELECT DISTINCT goods_id id FROM `p39_goods_cat` WHERE `cat_id` IN ('20')  [ RunTime:0.0015s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN ('19') ORDER BY sort_num ASC  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '2' AND `is_floor` = '否'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '2' AND `is_floor` = '是'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '12' AND `is_floor` = '否'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '12' AND `is_floor` = '是'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000349s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000576s ]
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined index: children F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055147s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055391s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001664s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001868s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002697s ]
+

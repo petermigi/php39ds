@@ -1,0 +1,5 @@
+ALTER TABLE P39_goods ADD logo varchar(150) not null default '' comment '原图';
+ALTER TABLE P39_goods ADD sm_logo varchar(150) not null default '' comment '小图';
+ALTER TABLE P39_goods ADD mid_logo varchar(150) not null default '' comment '中图';
+ALTER TABLE P39_goods ADD big_logo varchar(150) not null default '' comment '大图';
+ALTER TABLE P39_goods ADD mbig_logo varchar(150) not null default '' comment '更大图';

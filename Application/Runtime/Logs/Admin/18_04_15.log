@@ -1,0 +1,1482 @@
+[ 2018-04-15T00:49:02+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000911s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001326s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.2558s ]
+SQL: SELECT COUNT(*) AS tp_count FROM p39_goods a LIMIT 1   [ RunTime:0.0325s ]
+SQL: SELECT a.*,b.brand_name,c.cat_name,GROUP_CONCAT(e.cat_name SEPARATOR "<br />") ext_cat_name FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id         
+                LEFT JOIN p39_category c ON a.cat_id=c.id
+                LEFT JOIN p39_goods_cat d ON a.id=d.goods_id
+                LEFT JOIN p39_category e ON d.cat_id=e.id  GROUP BY a.id ORDER BY a.id desc LIMIT 0,5   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0192s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000429s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0091s ]
+SQL: SELECT `id`,`brand_name` FROM `p39_brand`  [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.191280s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.191517s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001042s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001766s ]
+
+[ 2018-04-15T00:49:06+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000937s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001249s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0194s ]
+SQL: SELECT a.*,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b ON a.attr_id=b.id  WHERE `goods_id` = '31' AND b.attr_type = '可选'  [ RunTime:0.2482s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002797s ]
+
+[ 2018-04-15T00:49:14+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000997s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001316s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0061s ]
+SQL: SELECT a.*,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b ON a.attr_id=b.id  WHERE `goods_id` = '31' AND b.attr_type = '可选'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001742s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001986s ]
+
+[ 2018-04-15T00:59:30+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001007s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003008s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0072s ]
+SQL: SELECT a.*,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b ON a.attr_id=b.id  WHERE `goods_id` = '31' AND b.attr_type = '可选'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001647s ]
+
+[ 2018-04-15T00:59:37+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000935s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001276s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0061s ]
+SQL: SELECT a.*,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b ON a.attr_id=b.id  WHERE `goods_id` = '31' AND b.attr_type = '可选'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001608s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001804s ]
+
+[ 2018-04-15T01:07:31+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001008s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003223s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0064s ]
+SQL: SELECT a.*,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b ON a.attr_id=b.id  WHERE `goods_id` = '31' AND b.attr_type = '可选'  [ RunTime:0.0017s ]
+ERR: 模板不存在:./Application/Admin/View/Goods/goods_number.html
+
+[ 2018-04-15T01:15:39+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001563s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0061s ]
+SQL: SELECT a.*,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b ON a.attr_id=b.id  WHERE `goods_id` = '31' AND b.attr_type = '可选'  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000338s ]
+NOTIC: [8] Undefined variable: data F:\weblx\www\php39ds\Application\Runtime\Cache\Admin\2748f9ade8e602b7f92c24038866ded6.php 第 33 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Admin\2748f9ade8e602b7f92c24038866ded6.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020755s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000972s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001624s ]
+
+[ 2018-04-15T05:59:39+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000905s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001255s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0075s ]
+SQL: SELECT COUNT(*) AS tp_count FROM p39_goods a LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT a.*,b.brand_name,c.cat_name,GROUP_CONCAT(e.cat_name SEPARATOR "<br />") ext_cat_name FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id         
+                LEFT JOIN p39_category c ON a.cat_id=c.id
+                LEFT JOIN p39_goods_cat d ON a.id=d.goods_id
+                LEFT JOIN p39_category e ON d.cat_id=e.id  GROUP BY a.id ORDER BY a.id desc LIMIT 0,5   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000454s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0071s ]
+SQL: SELECT `id`,`brand_name` FROM `p39_brand`  [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049882s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050091s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005260s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005488s ]
+
+[ 2018-04-15T05:59:51+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000938s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001301s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0097s ]
+SQL: SELECT a.*,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b ON a.attr_id=b.id  WHERE `goods_id` = '31' AND b.attr_type = '可选'  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000355s ]
+NOTIC: [8] Undefined variable: data F:\weblx\www\php39ds\Application\Runtime\Cache\Admin\2748f9ade8e602b7f92c24038866ded6.php 第 33 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Admin\2748f9ade8e602b7f92c24038866ded6.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041700s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041904s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000855s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004865s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005076s ]
+
+[ 2018-04-15T06:05:55+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002668s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0064s ]
+SQL: SELECT a.*,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b ON a.attr_id=b.id  WHERE `goods_id` = '31' AND b.attr_type = '可选'  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000348s ]
+NOTIC: [8] Undefined variable: data F:\weblx\www\php39ds\Application\Runtime\Cache\Admin\2748f9ade8e602b7f92c24038866ded6.php 第 37 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Admin\2748f9ade8e602b7f92c24038866ded6.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019617s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019823s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002718s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002925s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001495s ]
+
+[ 2018-04-15T06:06:57+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003074s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0074s ]
+SQL: SELECT a.*,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b ON a.attr_id=b.id  WHERE `goods_id` = '31' AND b.attr_type = '可选'  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000348s ]
+NOTIC: [8] Undefined variable: data F:\weblx\www\php39ds\Application\Runtime\Cache\Admin\2748f9ade8e602b7f92c24038866ded6.php 第 40 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Admin\2748f9ade8e602b7f92c24038866ded6.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018090s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018758s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001606s ]
+
+[ 2018-04-15T06:07:23+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001280s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0062s ]
+SQL: SELECT a.*,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b ON a.attr_id=b.id  WHERE `goods_id` = '31' AND b.attr_type = '可选'  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003310s ]
+NOTIC: [8] Undefined variable: data F:\weblx\www\php39ds\Application\Runtime\Cache\Admin\2748f9ade8e602b7f92c24038866ded6.php 第 40 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Admin\2748f9ade8e602b7f92c24038866ded6.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019285s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019478s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000877s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001240s ]
+
+[ 2018-04-15T06:08:01+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002682s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0073s ]
+SQL: SELECT a.*,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b ON a.attr_id=b.id  WHERE `goods_id` = '31' AND b.attr_type = '可选'  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000357s ]
+NOTIC: [8] Undefined variable: data F:\weblx\www\php39ds\Application\Runtime\Cache\Admin\2748f9ade8e602b7f92c24038866ded6.php 第 40 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Admin\2748f9ade8e602b7f92c24038866ded6.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018952s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019148s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001820s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002058s ]
+
+[ 2018-04-15T06:12:49+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001754s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0066s ]
+SQL: SELECT a.*,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b ON a.attr_id=b.id  WHERE `goods_id` = '31' AND b.attr_type = '可选'  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000233s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000448s ]
+NOTIC: [8] Undefined variable: data F:\weblx\www\php39ds\Application\Runtime\Cache\Admin\2748f9ade8e602b7f92c24038866ded6.php 第 47 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Admin\2748f9ade8e602b7f92c24038866ded6.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017147s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017377s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001746s ]
+
+[ 2018-04-15T06:13:31+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000978s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005357s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0150s ]
+SQL: SELECT a.*,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b ON a.attr_id=b.id  WHERE `goods_id` = '31' AND b.attr_type = '可选'  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000359s ]
+NOTIC: [8] Undefined variable: data F:\weblx\www\php39ds\Application\Runtime\Cache\Admin\2748f9ade8e602b7f92c24038866ded6.php 第 47 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Admin\2748f9ade8e602b7f92c24038866ded6.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020278s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020479s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001031s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001245s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001424s ]
+
+[ 2018-04-15T06:14:44+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001306s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0071s ]
+SQL: SELECT COUNT(*) AS tp_count FROM p39_goods a LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT a.*,b.brand_name,c.cat_name,GROUP_CONCAT(e.cat_name SEPARATOR "<br />") ext_cat_name FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id         
+                LEFT JOIN p39_category c ON a.cat_id=c.id
+                LEFT JOIN p39_goods_cat d ON a.id=d.goods_id
+                LEFT JOIN p39_category e ON d.cat_id=e.id  GROUP BY a.id ORDER BY a.id desc LIMIT 0,5   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000197s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000426s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0093s ]
+SQL: SELECT `id`,`brand_name` FROM `p39_brand`  [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048247s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000886s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001065s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005778s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006003s ]
+
+[ 2018-04-15T06:14:46+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002187s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0087s ]
+SQL: SELECT a.*,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b ON a.attr_id=b.id  WHERE `goods_id` = '31' AND b.attr_type = '可选'  [ RunTime:0.0007s ]
+
+[ 2018-04-15T06:14:51+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000929s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001403s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0062s ]
+SQL: SELECT a.*,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b ON a.attr_id=b.id  WHERE `goods_id` = '31' AND b.attr_type = '可选'  [ RunTime:0.0004s ]
+
+[ 2018-04-15T06:16:14+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001015s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003079s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0062s ]
+SQL: SELECT a.*,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b ON a.attr_id=b.id  WHERE `goods_id` = '31' AND b.attr_type = '可选'  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000358s ]
+NOTIC: [8] Undefined variable: data F:\weblx\www\php39ds\Application\Runtime\Cache\Admin\2748f9ade8e602b7f92c24038866ded6.php 第 47 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Admin\2748f9ade8e602b7f92c24038866ded6.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021919s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022694s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001036s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001554s ]
+
+[ 2018-04-15T06:19:16+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001006s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003184s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0075s ]
+SQL: SELECT a.*,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b ON a.attr_id=b.id  WHERE `goods_id` = '31' AND b.attr_type = '可选'  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000380s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018928s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019280s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001459s ]
+
+[ 2018-04-15T06:21:17+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003429s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0077s ]
+SQL: SELECT a.*,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b ON a.attr_id=b.id  WHERE `goods_id` = '31' AND b.attr_type = '可选'  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000349s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018116s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018321s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001245s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001423s ]
+
+[ 2018-04-15T07:11:56+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006382s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0071s ]
+SQL: SELECT a.*,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b ON a.attr_id=b.id  WHERE `goods_id` = '31' AND b.attr_type = '可选'  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000403s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017526s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017735s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001516s ]
+
+[ 2018-04-15T07:21:50+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000887s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001688s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0064s ]
+SQL: SELECT a.*,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b ON a.attr_id=b.id  WHERE `goods_id` = '31' AND b.attr_type = '可选'  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000612s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016757s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016965s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000921s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001150s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001356s ]
+
+[ 2018-04-15T07:22:48+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000917s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003404s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0061s ]
+SQL: SELECT a.*,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b ON a.attr_id=b.id  WHERE `goods_id` = '31' AND b.attr_type = '可选'  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000377s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016604s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001750s ]
+
+[ 2018-04-15T07:25:12+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001477s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0090s ]
+SQL: SELECT a.*,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b ON a.attr_id=b.id  WHERE `goods_id` = '31' AND b.attr_type = '可选'  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000383s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000599s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015092s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015304s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000921s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001199s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001384s ]
+
+[ 2018-04-15T07:35:32+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000881s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001810s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0068s ]
+SQL: SELECT a.*,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b ON a.attr_id=b.id  WHERE `goods_id` = '31' AND b.attr_type = '可选'  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000360s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016229s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016429s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001003s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001612s ]
+
+[ 2018-04-15T07:35:59+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000894s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001511s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0070s ]
+SQL: SELECT a.*,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b ON a.attr_id=b.id  WHERE `goods_id` = '31' AND b.attr_type = '可选'  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000266s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000483s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018785s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002750s ]
+
+[ 2018-04-15T08:12:51+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000904s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001438s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0092s ]
+SQL: SELECT a.*,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b ON a.attr_id=b.id  WHERE `goods_id` = '31' AND b.attr_type = '可选'  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000410s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015887s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016345s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000979s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001169s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001351s ]
+
+[ 2018-04-15T08:15:45+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000888s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002480s ]
+
+[ 2018-04-15T08:46:26+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000954s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007610s ]
+ERR: 1146:Table 'ds39.p39_goods_number' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `p39_goods_number`
+ERR: 1146:Table 'ds39.p39_goods_number' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `p39_goods_number`
+
+[ 2018-04-15T08:50:47+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000902s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001880s ]
+SQL: SHOW COLUMNS FROM `p39_goods_number` [ RunTime:0.0067s ]
+NOTIC: [8] Undefined variable: _goodsAttrId F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 38 行.
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 38 行.
+SQL: INSERT INTO `p39_goods_number` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('31','','123') [ RunTime:0.2340s ]
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 38 行.
+SQL: INSERT INTO `p39_goods_number` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('31','','324') [ RunTime:0.0191s ]
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 38 行.
+SQL: INSERT INTO `p39_goods_number` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('31','','100') [ RunTime:0.0207s ]
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 38 行.
+SQL: INSERT INTO `p39_goods_number` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('31','','453') [ RunTime:0.0189s ]
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 38 行.
+SQL: INSERT INTO `p39_goods_number` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('31','','65') [ RunTime:0.0209s ]
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 38 行.
+SQL: INSERT INTO `p39_goods_number` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('31','','43') [ RunTime:0.0202s ]
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 38 行.
+SQL: INSERT INTO `p39_goods_number` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('31','','432') [ RunTime:0.0196s ]
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 38 行.
+SQL: INSERT INTO `p39_goods_number` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('31','','45365') [ RunTime:0.0192s ]
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 38 行.
+SQL: INSERT INTO `p39_goods_number` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('31','','3232') [ RunTime:0.0458s ]
+
+[ 2018-04-15T08:55:46+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000907s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002368s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0066s ]
+SQL: SELECT a.*,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b ON a.attr_id=b.id  WHERE `goods_id` = '31' AND b.attr_type = '可选'  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000364s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016991s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017213s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001558s ]
+
+[ 2018-04-15T08:56:13+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000878s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002783s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0066s ]
+SQL: SELECT a.*,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b ON a.attr_id=b.id  WHERE `goods_id` = '31' AND b.attr_type = '可选'  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000368s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016662s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016867s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001588s ]
+
+[ 2018-04-15T08:57:54+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001371s ]
+SQL: SHOW COLUMNS FROM `p39_goods_number` [ RunTime:0.0063s ]
+SQL: INSERT INTO `p39_goods_number` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('31','','123') [ RunTime:0.0602s ]
+SQL: INSERT INTO `p39_goods_number` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('31','','324') [ RunTime:0.0463s ]
+SQL: INSERT INTO `p39_goods_number` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('31','','100') [ RunTime:0.0186s ]
+SQL: INSERT INTO `p39_goods_number` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('31','','453') [ RunTime:0.0207s ]
+SQL: INSERT INTO `p39_goods_number` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('31','','65') [ RunTime:0.0196s ]
+SQL: INSERT INTO `p39_goods_number` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('31','','43') [ RunTime:0.0451s ]
+SQL: INSERT INTO `p39_goods_number` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('31','','432') [ RunTime:0.0276s ]
+SQL: INSERT INTO `p39_goods_number` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('31','','45365') [ RunTime:0.0212s ]
+SQL: INSERT INTO `p39_goods_number` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('31','','3232') [ RunTime:0.0487s ]
+
+[ 2018-04-15T09:01:04+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001404s ]
+
+[ 2018-04-15T09:02:05+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000816s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001127s ]
+SQL: SHOW COLUMNS FROM `p39_goods_number` [ RunTime:0.0084s ]
+
+[ 2018-04-15T09:03:00+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001125s ]
+SQL: SHOW COLUMNS FROM `p39_goods_number` [ RunTime:0.0064s ]
+
+[ 2018-04-15T09:03:47+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000876s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001413s ]
+SQL: SHOW COLUMNS FROM `p39_goods_number` [ RunTime:0.0062s ]
+
+[ 2018-04-15T09:05:24+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000921s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001247s ]
+SQL: SHOW COLUMNS FROM `p39_goods_number` [ RunTime:0.0082s ]
+SQL: INSERT INTO `p39_goods_number` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('31','15,11','123') [ RunTime:0.0560s ]
+SQL: INSERT INTO `p39_goods_number` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('31','15,13','324') [ RunTime:0.0186s ]
+SQL: INSERT INTO `p39_goods_number` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('31','15,12','100') [ RunTime:0.0207s ]
+SQL: INSERT INTO `p39_goods_number` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('31','16,11','453') [ RunTime:0.0443s ]
+SQL: INSERT INTO `p39_goods_number` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('31','16,13','65') [ RunTime:0.0210s ]
+SQL: INSERT INTO `p39_goods_number` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('31','16,12','43') [ RunTime:0.0440s ]
+SQL: INSERT INTO `p39_goods_number` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('31','7,11','432') [ RunTime:0.0301s ]
+SQL: INSERT INTO `p39_goods_number` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('31','7,13','45365') [ RunTime:0.0183s ]
+SQL: INSERT INTO `p39_goods_number` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('31','7,12','3232') [ RunTime:0.0207s ]
+
+[ 2018-04-15T09:16:06+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001453s ]
+SQL: SHOW COLUMNS FROM `p39_goods_number` [ RunTime:0.0066s ]
+NOTIC: [8] Use of undefined constant SORT_NUMRIC - assumed 'SORT_NUMRIC' F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 39 行.
+NOTIC: [2] sort() expects parameter 2 to be long, string given F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 39 行.
+SQL: INSERT INTO `p39_goods_number` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('31','15,11','123') [ RunTime:0.1258s ]
+NOTIC: [8] Use of undefined constant SORT_NUMRIC - assumed 'SORT_NUMRIC' F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 39 行.
+NOTIC: [2] sort() expects parameter 2 to be long, string given F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 39 行.
+SQL: INSERT INTO `p39_goods_number` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('31','15,13','324') [ RunTime:0.0237s ]
+NOTIC: [8] Use of undefined constant SORT_NUMRIC - assumed 'SORT_NUMRIC' F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 39 行.
+NOTIC: [2] sort() expects parameter 2 to be long, string given F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 39 行.
+SQL: INSERT INTO `p39_goods_number` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('31','15,12','100') [ RunTime:0.1412s ]
+NOTIC: [8] Use of undefined constant SORT_NUMRIC - assumed 'SORT_NUMRIC' F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 39 行.
+NOTIC: [2] sort() expects parameter 2 to be long, string given F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 39 行.
+SQL: INSERT INTO `p39_goods_number` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('31','16,11','453') [ RunTime:0.0237s ]
+NOTIC: [8] Use of undefined constant SORT_NUMRIC - assumed 'SORT_NUMRIC' F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 39 行.
+NOTIC: [2] sort() expects parameter 2 to be long, string given F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 39 行.
+SQL: INSERT INTO `p39_goods_number` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('31','16,13','65') [ RunTime:0.0199s ]
+NOTIC: [8] Use of undefined constant SORT_NUMRIC - assumed 'SORT_NUMRIC' F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 39 行.
+NOTIC: [2] sort() expects parameter 2 to be long, string given F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 39 行.
+SQL: INSERT INTO `p39_goods_number` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('31','16,12','43') [ RunTime:0.0191s ]
+NOTIC: [8] Use of undefined constant SORT_NUMRIC - assumed 'SORT_NUMRIC' F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 39 行.
+NOTIC: [2] sort() expects parameter 2 to be long, string given F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 39 行.
+SQL: INSERT INTO `p39_goods_number` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('31','7,11','432') [ RunTime:0.0203s ]
+NOTIC: [8] Use of undefined constant SORT_NUMRIC - assumed 'SORT_NUMRIC' F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 39 行.
+NOTIC: [2] sort() expects parameter 2 to be long, string given F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 39 行.
+SQL: INSERT INTO `p39_goods_number` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('31','7,13','45365') [ RunTime:0.0191s ]
+NOTIC: [8] Use of undefined constant SORT_NUMRIC - assumed 'SORT_NUMRIC' F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 39 行.
+NOTIC: [2] sort() expects parameter 2 to be long, string given F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 39 行.
+SQL: INSERT INTO `p39_goods_number` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('31','7,12','3232') [ RunTime:0.0567s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0093s ]
+SQL: SELECT a.*,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b ON a.attr_id=b.id  WHERE `goods_id` = '31' AND b.attr_type = '可选'  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000641s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021317s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021620s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001629s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001845s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001281s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001470s ]
+
+[ 2018-04-15T09:17:43+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001319s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0071s ]
+SQL: SELECT a.*,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b ON a.attr_id=b.id  WHERE `goods_id` = '31' AND b.attr_type = '可选'  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000350s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012881s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013080s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000971s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001152s ]
+
+[ 2018-04-15T09:20:25+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000904s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001421s ]
+
+[ 2018-04-15T09:20:55+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001160s ]
+SQL: SHOW COLUMNS FROM `p39_goods_number` [ RunTime:0.0306s ]
+SQL: INSERT INTO `p39_goods_number` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('31','11,15','123') [ RunTime:0.0381s ]
+SQL: INSERT INTO `p39_goods_number` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('31','13,15','324') [ RunTime:0.0205s ]
+SQL: INSERT INTO `p39_goods_number` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('31','12,15','100') [ RunTime:0.0194s ]
+SQL: INSERT INTO `p39_goods_number` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('31','11,16','453') [ RunTime:0.0205s ]
+SQL: INSERT INTO `p39_goods_number` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('31','13,16','65') [ RunTime:0.0196s ]
+SQL: INSERT INTO `p39_goods_number` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('31','12,16','43') [ RunTime:0.0206s ]
+SQL: INSERT INTO `p39_goods_number` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('31','7,11','432') [ RunTime:0.0278s ]
+SQL: INSERT INTO `p39_goods_number` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('31','7,13','45365') [ RunTime:0.0296s ]
+SQL: INSERT INTO `p39_goods_number` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('31','7,12','3232') [ RunTime:0.0188s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0072s ]
+SQL: SELECT a.*,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b ON a.attr_id=b.id  WHERE `goods_id` = '31' AND b.attr_type = '可选'  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000362s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014534s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014747s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000885s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001117s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001301s ]
+
+[ 2018-04-15T11:40:53+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001977s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.1827s ]
+SQL: SELECT COUNT(*) AS tp_count FROM p39_goods a LIMIT 1   [ RunTime:0.0783s ]
+SQL: SELECT a.*,b.brand_name,c.cat_name,GROUP_CONCAT(e.cat_name SEPARATOR "<br />") ext_cat_name FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id         
+                LEFT JOIN p39_category c ON a.cat_id=c.id
+                LEFT JOIN p39_goods_cat d ON a.id=d.goods_id
+                LEFT JOIN p39_category e ON d.cat_id=e.id  GROUP BY a.id ORDER BY a.id desc LIMIT 0,5   [ RunTime:0.1758s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0097s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0066s ]
+SQL: SELECT `id`,`brand_name` FROM `p39_brand`  [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001224s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005744s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005980s ]
+
+[ 2018-04-15T11:40:57+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017215s ]
+SQL: SHOW COLUMNS FROM `p39_goods_number` [ RunTime:0.0598s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0362s ]
+SQL: SELECT a.*,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b ON a.attr_id=b.id  WHERE `goods_id` = '31' AND b.attr_type = '可选'  [ RunTime:0.0713s ]
+SQL: SELECT * FROM `p39_goods_number` WHERE `goods_id` = 31  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000363s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014353s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014559s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000987s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001177s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001358s ]
+
+[ 2018-04-15T11:46:15+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001014s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002958s ]
+SQL: SHOW COLUMNS FROM `p39_goods_number` [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0063s ]
+SQL: SELECT a.*,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b ON a.attr_id=b.id  WHERE `goods_id` = '31' AND b.attr_type = '可选'  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `p39_goods_number` WHERE `goods_id` = 31  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000365s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018936s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019131s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001129s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004255s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004581s ]
+
+[ 2018-04-15T11:47:40+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002617s ]
+SQL: SHOW COLUMNS FROM `p39_goods_number` [ RunTime:0.0065s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0065s ]
+SQL: SELECT a.*,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b ON a.attr_id=b.id  WHERE `goods_id` = '31' AND b.attr_type = '可选'  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `p39_goods_number` WHERE `goods_id` = 31  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000356s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020117s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020358s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001056s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001886s ]
+
+[ 2018-04-15T11:49:15+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001995s ]
+SQL: SHOW COLUMNS FROM `p39_goods_number` [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0069s ]
+SQL: SELECT a.*,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b ON a.attr_id=b.id  WHERE `goods_id` = '31' AND b.attr_type = '可选'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p39_goods_number` WHERE `goods_id` = 31  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000355s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019068s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019292s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001323s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.070034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.070267s ]
+
+[ 2018-04-15T11:49:44+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000992s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003057s ]
+SQL: SHOW COLUMNS FROM `p39_goods_number` [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0067s ]
+SQL: SELECT a.*,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b ON a.attr_id=b.id  WHERE `goods_id` = '31' AND b.attr_type = '可选'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `p39_goods_number` WHERE `goods_id` = 31  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000364s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016447s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016656s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004308s ]
+
+[ 2018-04-15T11:57:35+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001848s ]
+SQL: SHOW COLUMNS FROM `p39_goods_number` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0070s ]
+SQL: SELECT a.*,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b ON a.attr_id=b.id  WHERE `goods_id` = '31' AND b.attr_type = '可选'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `p39_goods_number` WHERE `goods_id` = 31  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000369s ]
+
+[ 2018-04-15T11:58:18+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `p39_goods_number` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0060s ]
+SQL: SELECT a.*,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b ON a.attr_id=b.id  WHERE `goods_id` = '31' AND b.attr_type = '可选'  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `p39_goods_number` WHERE `goods_id` = 31  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000399s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017577s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017791s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005230s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005465s ]
+
+[ 2018-04-15T12:01:24+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000992s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001841s ]
+SQL: SHOW COLUMNS FROM `p39_goods_number` [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0061s ]
+SQL: SELECT a.*,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b ON a.attr_id=b.id  WHERE `goods_id` = '31' AND b.attr_type = '可选'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `p39_goods_number` WHERE `goods_id` = 31  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000395s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017530s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017732s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002796s ]
+
+[ 2018-04-15T12:02:08+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000989s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003358s ]
+SQL: SHOW COLUMNS FROM `p39_goods_number` [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0065s ]
+SQL: SELECT a.*,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b ON a.attr_id=b.id  WHERE `goods_id` = '31' AND b.attr_type = '可选'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `p39_goods_number` WHERE `goods_id` = 31  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000364s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021514s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021757s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001031s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001897s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002244s ]
+
+[ 2018-04-15T12:12:57+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003213s ]
+SQL: SHOW COLUMNS FROM `p39_goods_number` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0067s ]
+SQL: SELECT a.*,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b ON a.attr_id=b.id  WHERE `goods_id` = '31' AND b.attr_type = '可选'  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `p39_goods_number` WHERE `goods_id` = 31  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000387s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021238s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021439s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001683s ]
+
+[ 2018-04-15T12:13:04+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001381s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0075s ]
+SQL: SELECT COUNT(*) AS tp_count FROM p39_goods a LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT a.*,b.brand_name,c.cat_name,GROUP_CONCAT(e.cat_name SEPARATOR "<br />") ext_cat_name FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id         
+                LEFT JOIN p39_category c ON a.cat_id=c.id
+                LEFT JOIN p39_goods_cat d ON a.id=d.goods_id
+                LEFT JOIN p39_category e ON d.cat_id=e.id  GROUP BY a.id ORDER BY a.id desc LIMIT 0,5   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000418s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0062s ]
+SQL: SELECT `id`,`brand_name` FROM `p39_brand`  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044027s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044247s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001584s ]
+
+[ 2018-04-15T12:13:09+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/30.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000958s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001305s ]
+SQL: SHOW COLUMNS FROM `p39_goods_number` [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0069s ]
+SQL: SELECT a.*,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b ON a.attr_id=b.id  WHERE `goods_id` = '30' AND b.attr_type = '可选'  [ RunTime:0.0724s ]
+SQL: SELECT * FROM `p39_goods_number` WHERE `goods_id` = 30  [ RunTime:0.0068s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000368s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017327s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000914s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001104s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001286s ]
+
+[ 2018-04-15T12:14:06+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000912s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001267s ]
+SQL: SHOW COLUMNS FROM `p39_goods_number` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0065s ]
+SQL: SELECT a.*,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b ON a.attr_id=b.id  WHERE `goods_id` = '31' AND b.attr_type = '可选'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p39_goods_number` WHERE `goods_id` = 31  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000403s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018505s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018732s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001584s ]
+
+[ 2018-04-15T12:14:15+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/30.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000995s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004053s ]
+SQL: SHOW COLUMNS FROM `p39_goods_number` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0060s ]
+SQL: SELECT a.*,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b ON a.attr_id=b.id  WHERE `goods_id` = '30' AND b.attr_type = '可选'  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `p39_goods_number` WHERE `goods_id` = 30  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000364s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018103s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018323s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001221s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001399s ]
+
+[ 2018-04-15T12:24:46+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001012s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003880s ]
+SQL: SHOW COLUMNS FROM `p39_goods_number` [ RunTime:0.0064s ]
+SQL: DELETE FROM `p39_goods_number` WHERE `goods_id` = '31' [ RunTime:0.0801s ]
+SQL: INSERT INTO `p39_goods_number` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('31','11,15','555') [ RunTime:0.0481s ]
+SQL: INSERT INTO `p39_goods_number` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('31','13,15','666') [ RunTime:0.0445s ]
+SQL: INSERT INTO `p39_goods_number` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('31','12,15','777') [ RunTime:0.0206s ]
+SQL: INSERT INTO `p39_goods_number` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('31','11,16','888') [ RunTime:0.0529s ]
+SQL: INSERT INTO `p39_goods_number` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('31','13,16','999') [ RunTime:0.0204s ]
+SQL: INSERT INTO `p39_goods_number` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('31','12,16','111') [ RunTime:0.0530s ]
+SQL: INSERT INTO `p39_goods_number` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('31','7,11','222') [ RunTime:0.0203s ]
+SQL: INSERT INTO `p39_goods_number` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('31','7,13','333') [ RunTime:0.0492s ]
+SQL: INSERT INTO `p39_goods_number` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('31','7,12','444') [ RunTime:0.0194s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000330s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047700s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001057s ]
+
+[ 2018-04-15T12:24:49+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001247s ]
+SQL: SHOW COLUMNS FROM `p39_goods_number` [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0065s ]
+SQL: SELECT a.*,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b ON a.attr_id=b.id  WHERE `goods_id` = '31' AND b.attr_type = '可选'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `p39_goods_number` WHERE `goods_id` = 31  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001473s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001690s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018893s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000821s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003719s ]
+
+[ 2018-04-15T12:31:53+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001775s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0088s ]
+SQL: SELECT COUNT(*) AS tp_count FROM p39_goods a LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT a.*,b.brand_name,c.cat_name,GROUP_CONCAT(e.cat_name SEPARATOR "<br />") ext_cat_name FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id         
+                LEFT JOIN p39_category c ON a.cat_id=c.id
+                LEFT JOIN p39_goods_cat d ON a.id=d.goods_id
+                LEFT JOIN p39_category e ON d.cat_id=e.id  GROUP BY a.id ORDER BY a.id desc LIMIT 0,5   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000539s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0105s ]
+SQL: SELECT `id`,`brand_name` FROM `p39_brand`  [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039155s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039341s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001222s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001563s ]
+
+[ 2018-04-15T12:32:05+08:00 ] 127.0.0.1 /index.php/Admin/Goods/delete/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000983s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004068s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0089s ]
+SQL: SHOW COLUMNS FROM `p39_goods_number` [ RunTime:0.0080s ]
+SQL: DELETE FROM `p39_goods_number` WHERE `goods_id` = 31 [ RunTime:0.0595s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0079s ]
+SQL: DELETE FROM `p39_goods_attr` WHERE `goods_id` = 31 [ RunTime:0.0483s ]
+SQL: SHOW COLUMNS FROM `p39_goods_cat` [ RunTime:0.0099s ]
+SQL: DELETE FROM `p39_goods_cat` WHERE `goods_id` = 31 [ RunTime:0.0005s ]
+SQL: SELECT `logo`,`mbig_logo`,`big_logo`,`mid_logo`,`sm_logo` FROM `p39_goods` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] unlink(./Public/Uploads/) [<a href='function.unlink'>function.unlink</a>]: Permission denied F:\weblx\www\php39ds\Application\Common\Common\function.php 第 29 行.
+NOTIC: [2] unlink(./Public/Uploads/) [<a href='function.unlink'>function.unlink</a>]: Permission denied F:\weblx\www\php39ds\Application\Common\Common\function.php 第 29 行.
+NOTIC: [2] unlink(./Public/Uploads/) [<a href='function.unlink'>function.unlink</a>]: Permission denied F:\weblx\www\php39ds\Application\Common\Common\function.php 第 29 行.
+NOTIC: [2] unlink(./Public/Uploads/) [<a href='function.unlink'>function.unlink</a>]: Permission denied F:\weblx\www\php39ds\Application\Common\Common\function.php 第 29 行.
+NOTIC: [2] unlink(./Public/Uploads/) [<a href='function.unlink'>function.unlink</a>]: Permission denied F:\weblx\www\php39ds\Application\Common\Common\function.php 第 29 行.
+SQL: DELETE FROM `p39_goods` WHERE `id` = 31 [ RunTime:0.0255s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000333s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016839s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017047s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001702s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001876s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001480s ]
+
+[ 2018-04-15T12:32:09+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001242s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0086s ]
+SQL: SELECT COUNT(*) AS tp_count FROM p39_goods a LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT a.*,b.brand_name,c.cat_name,GROUP_CONCAT(e.cat_name SEPARATOR "<br />") ext_cat_name FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id         
+                LEFT JOIN p39_category c ON a.cat_id=c.id
+                LEFT JOIN p39_goods_cat d ON a.id=d.goods_id
+                LEFT JOIN p39_category e ON d.cat_id=e.id  GROUP BY a.id ORDER BY a.id desc LIMIT 0,5   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0087s ]
+SQL: SELECT `id`,`brand_name` FROM `p39_brand`  [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035903s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036099s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001083s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001273s ]
+
+[ 2018-04-15T12:33:00+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000917s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001249s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM p39_goods a LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT a.*,b.brand_name,c.cat_name,GROUP_CONCAT(e.cat_name SEPARATOR "<br />") ext_cat_name FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id         
+                LEFT JOIN p39_category c ON a.cat_id=c.id
+                LEFT JOIN p39_goods_cat d ON a.id=d.goods_id
+                LEFT JOIN p39_category e ON d.cat_id=e.id  GROUP BY a.id ORDER BY a.id desc LIMIT 0,5   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000208s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000454s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0087s ]
+SQL: SELECT `id`,`brand_name` FROM `p39_brand`  [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036298s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036495s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001176s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001369s ]
+
+[ 2018-04-15T12:33:36+08:00 ] 127.0.0.1 /index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001835s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000323s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028296s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028564s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001275s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001463s ]
+
+[ 2018-04-15T12:33:38+08:00 ] 127.0.0.1 /index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000992s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001544s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000353s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035890s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036122s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001038s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001258s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001441s ]
+
+[ 2018-04-15T12:33:39+08:00 ] 127.0.0.1 /index.php/Admin/Index/menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000990s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002708s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000270s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000493s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065458s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065698s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000924s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002693s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002918s ]
+
+[ 2018-04-15T12:33:40+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001382s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000384s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039586s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039830s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000870s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001091s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001337s ]
+

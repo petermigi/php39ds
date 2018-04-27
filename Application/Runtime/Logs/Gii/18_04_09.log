@@ -1,0 +1,71 @@
+[ 2018-04-09T04:01:59+08:00 ] 127.0.0.1 /index.php/gii
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003074s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000401s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031172s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031420s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001035s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001276s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001463s ]
+
+[ 2018-04-09T04:02:22+08:00 ] 127.0.0.1 /index.php/gii
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000979s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001520s ]
+NOTIC: [8] Undefined index: _before_insert F:\weblx\www\php39ds\Application\Gii\Code_templates\Model.php 第 50 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Gii\Code_templates\Model.php 第 50 行.
+NOTIC: [8] Undefined index: Type F:\weblx\www\php39ds\Application\Gii\Code_templates\lst.html 第 34 行.
+NOTIC: [8] Undefined index: Type F:\weblx\www\php39ds\Application\Gii\Code_templates\lst.html 第 34 行.
+NOTIC: [8] Undefined index: Type F:\weblx\www\php39ds\Application\Gii\Code_templates\lst.html 第 34 行.
+NOTIC: [8] Undefined index: Type F:\weblx\www\php39ds\Application\Gii\Code_templates\lst.html 第 34 行.
+NOTIC: [8] Undefined index: Type F:\weblx\www\php39ds\Application\Gii\Code_templates\lst.html 第 34 行.
+NOTIC: [8] Undefined index: Type F:\weblx\www\php39ds\Application\Gii\Code_templates\lst.html 第 34 行.
+NOTIC: [8] Undefined index: Type F:\weblx\www\php39ds\Application\Gii\Code_templates\lst.html 第 34 行.
+NOTIC: [8] Undefined index: Type F:\weblx\www\php39ds\Application\Gii\Code_templates\lst.html 第 34 行.
+NOTIC: [8] Undefined index: Field F:\weblx\www\php39ds\Application\Gii\Code_templates\lst.html 第 41 行.
+NOTIC: [8] Undefined index: Field F:\weblx\www\php39ds\Application\Gii\Code_templates\lst.html 第 41 行.
+NOTIC: [8] Undefined index: Field F:\weblx\www\php39ds\Application\Gii\Code_templates\lst.html 第 41 行.
+NOTIC: [8] Undefined index: Field F:\weblx\www\php39ds\Application\Gii\Code_templates\lst.html 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000331s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028957s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029168s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000992s ]
+
+[ 2018-04-09T04:02:26+08:00 ] 127.0.0.1 /index.php/gii
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000936s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001326s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000334s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015575s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015769s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000796s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001242s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001424s ]
+

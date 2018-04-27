@@ -1,0 +1,322 @@
+[ 2018-04-16T09:55:08+08:00 ] 127.0.0.1 /index.php/gii
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000912s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001478s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000370s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028269s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028493s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001171s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001356s ]
+
+[ 2018-04-16T09:55:37+08:00 ] 127.0.0.1 /index.php/gii
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001253s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000342s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014918s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015113s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000883s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001591s ]
+
+[ 2018-04-16T09:56:24+08:00 ] 127.0.0.1 /index.php/gii
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002352s ]
+SQL: show table status WHERE Name LIKE 'P39_privilege' [ RunTime:0.1288s ]
+SQL: SHOW FULL FIELDS FROM P39_privilege [ RunTime:0.0081s ]
+NOTIC: [8] Undefined index: Comment F:\weblx\www\php39ds\Application\Gii\Code_templates\config.php 第 3 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000415s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027504s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027746s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001553s ]
+
+[ 2018-04-16T09:56:27+08:00 ] 127.0.0.1 /index.php/gii
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000907s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001260s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000359s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014319s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002172s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001608s ]
+
+[ 2018-04-16T10:06:32+08:00 ] 127.0.0.1 /index.php/gii
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002631s ]
+NOTIC: [8] Undefined index: Type F:\weblx\www\php39ds\Application\Gii\Code_templates\lst.html 第 34 行.
+NOTIC: [8] Undefined index: Type F:\weblx\www\php39ds\Application\Gii\Code_templates\lst.html 第 34 行.
+NOTIC: [8] Undefined index: Type F:\weblx\www\php39ds\Application\Gii\Code_templates\lst.html 第 34 行.
+NOTIC: [8] Undefined index: Type F:\weblx\www\php39ds\Application\Gii\Code_templates\lst.html 第 34 行.
+NOTIC: [8] Undefined index: Type F:\weblx\www\php39ds\Application\Gii\Code_templates\lst.html 第 34 行.
+NOTIC: [8] Undefined index: Type F:\weblx\www\php39ds\Application\Gii\Code_templates\lst.html 第 34 行.
+NOTIC: [8] Undefined index: Type F:\weblx\www\php39ds\Application\Gii\Code_templates\lst.html 第 34 行.
+NOTIC: [8] Undefined index: Type F:\weblx\www\php39ds\Application\Gii\Code_templates\lst.html 第 34 行.
+NOTIC: [8] Undefined index: Type F:\weblx\www\php39ds\Application\Gii\Code_templates\lst.html 第 34 行.
+NOTIC: [8] Undefined index: Type F:\weblx\www\php39ds\Application\Gii\Code_templates\lst.html 第 34 行.
+NOTIC: [8] Undefined index: Field F:\weblx\www\php39ds\Application\Gii\Code_templates\lst.html 第 41 行.
+NOTIC: [8] Undefined index: Field F:\weblx\www\php39ds\Application\Gii\Code_templates\lst.html 第 41 行.
+NOTIC: [8] Undefined index: Field F:\weblx\www\php39ds\Application\Gii\Code_templates\lst.html 第 41 行.
+NOTIC: [8] Undefined index: Field F:\weblx\www\php39ds\Application\Gii\Code_templates\lst.html 第 41 行.
+NOTIC: [8] Undefined index: Field F:\weblx\www\php39ds\Application\Gii\Code_templates\lst.html 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000358s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014708s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015307s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000984s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001161s ]
+
+[ 2018-04-16T10:06:35+08:00 ] 127.0.0.1 /index.php/gii
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000903s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001472s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000331s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012211s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012413s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001603s ]
+
+[ 2018-04-16T12:45:01+08:00 ] 127.0.0.1 /index.php/gii
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001893s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003603s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000372s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.283557s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.283851s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000840s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001158s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001341s ]
+
+[ 2018-04-16T12:45:33+08:00 ] 127.0.0.1 /index.php/gii
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002301s ]
+SQL: show table status WHERE Name LIKE 'p39_role' [ RunTime:0.4462s ]
+SQL: SHOW FULL FIELDS FROM p39_role [ RunTime:0.0300s ]
+NOTIC: [8] Undefined index: Comment F:\weblx\www\php39ds\Application\Gii\Code_templates\config.php 第 3 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000257s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000470s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076303s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076530s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001250s ]
+
+[ 2018-04-16T12:45:36+08:00 ] 127.0.0.1 /index.php/gii
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001490s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000340s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014340s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000867s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001252s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001436s ]
+
+[ 2018-04-16T12:45:55+08:00 ] 127.0.0.1 /index.php/gii
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001341s ]
+SQL: show table status WHERE Name LIKE 'p39_admin' [ RunTime:0.3894s ]
+SQL: SHOW FULL FIELDS FROM p39_admin [ RunTime:0.0081s ]
+NOTIC: [8] Undefined index: Comment F:\weblx\www\php39ds\Application\Gii\Code_templates\config.php 第 3 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000491s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014262s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000832s ]
+
+[ 2018-04-16T12:45:58+08:00 ] 127.0.0.1 /index.php/gii
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001461s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000425s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029485s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000850s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001186s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001371s ]
+
+[ 2018-04-16T12:58:15+08:00 ] 127.0.0.1 /index.php/gii
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000997s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002525s ]
+NOTIC: [8] Undefined index: _before_insert F:\weblx\www\php39ds\Application\Gii\Code_templates\Model.php 第 50 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Gii\Code_templates\Model.php 第 50 行.
+NOTIC: [8] Undefined index: Type F:\weblx\www\php39ds\Application\Gii\Code_templates\lst.html 第 34 行.
+NOTIC: [8] Undefined index: Type F:\weblx\www\php39ds\Application\Gii\Code_templates\lst.html 第 34 行.
+NOTIC: [8] Undefined index: Type F:\weblx\www\php39ds\Application\Gii\Code_templates\lst.html 第 34 行.
+NOTIC: [8] Undefined index: Type F:\weblx\www\php39ds\Application\Gii\Code_templates\lst.html 第 34 行.
+NOTIC: [8] Undefined index: Type F:\weblx\www\php39ds\Application\Gii\Code_templates\lst.html 第 34 行.
+NOTIC: [8] Undefined index: Type F:\weblx\www\php39ds\Application\Gii\Code_templates\lst.html 第 34 行.
+NOTIC: [8] Undefined index: Field F:\weblx\www\php39ds\Application\Gii\Code_templates\lst.html 第 41 行.
+NOTIC: [8] Undefined index: Field F:\weblx\www\php39ds\Application\Gii\Code_templates\lst.html 第 41 行.
+NOTIC: [8] Undefined index: Field F:\weblx\www\php39ds\Application\Gii\Code_templates\lst.html 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000364s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018913s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019126s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001074s ]
+
+[ 2018-04-16T12:58:19+08:00 ] 127.0.0.1 /index.php/gii
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000985s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003879s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000346s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050196s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000913s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004707s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004926s ]
+
+[ 2018-04-16T12:58:42+08:00 ] 127.0.0.1 /index.php/gii
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001010s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001340s ]
+NOTIC: [8] Undefined index: _before_insert F:\weblx\www\php39ds\Application\Gii\Code_templates\Model.php 第 50 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Gii\Code_templates\Model.php 第 50 行.
+NOTIC: [8] Undefined index: Type F:\weblx\www\php39ds\Application\Gii\Code_templates\lst.html 第 34 行.
+NOTIC: [8] Undefined index: Type F:\weblx\www\php39ds\Application\Gii\Code_templates\lst.html 第 34 行.
+NOTIC: [8] Undefined index: Field F:\weblx\www\php39ds\Application\Gii\Code_templates\lst.html 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000334s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013742s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000847s ]
+
+[ 2018-04-16T12:58:46+08:00 ] 127.0.0.1 /index.php/gii
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000910s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001440s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000735s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024529s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024990s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000828s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001100s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001359s ]
+

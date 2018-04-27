@@ -1,0 +1,900 @@
+[ 2018-03-23T13:09:37+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001177s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0131s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p39_goods` LIMIT 1   [ RunTime:0.0839s ]
+SQL: SELECT * FROM `p39_goods` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000236s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000464s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.157731s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.157967s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001518s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001757s ]
+
+[ 2018-03-23T13:21:23+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000916s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001928s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `p39_brand`  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000176s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000394s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032103s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032343s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001136s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001315s ]
+
+[ 2018-03-23T13:21:46+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000791s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001187s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `p39_brand`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000360s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014634s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014842s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000960s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001141s ]
+
+[ 2018-03-23T13:26:51+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000887s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001404s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `p39_brand`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000176s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000393s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015779s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015972s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000887s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001137s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001317s ]
+
+[ 2018-03-23T13:26:54+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000911s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001779s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `p39_brand`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000383s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016764s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016962s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000903s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001193s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001374s ]
+
+[ 2018-03-23T13:26:57+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000912s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001664s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `p39_brand`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000431s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016427s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001769s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001160s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001345s ]
+
+[ 2018-03-23T13:27:00+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000951s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001425s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `p39_brand`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000385s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017921s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018154s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000929s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001164s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001348s ]
+
+[ 2018-03-23T13:27:03+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000883s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001399s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `p39_brand`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000411s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015910s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016104s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001149s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001329s ]
+
+[ 2018-03-23T13:27:15+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000823s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003371s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0219s ]
+SQL: SELECT * FROM `p39_brand`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000398s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018276s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000885s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004678s ]
+
+[ 2018-03-23T13:29:51+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000899s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001391s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `p39_brand`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: brandata F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 41 行.
+
+[ 2018-03-23T13:29:58+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001185s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `p39_brand`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: brandata F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 41 行.
+
+[ 2018-03-23T13:29:59+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001430s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `p39_brand`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: brandata F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 41 行.
+
+[ 2018-03-23T13:30:00+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000913s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001427s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `p39_brand`  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: brandata F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 41 行.
+
+[ 2018-03-23T13:30:01+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000939s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001458s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `p39_brand`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: brandata F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 41 行.
+
+[ 2018-03-23T13:30:02+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000934s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001520s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `p39_brand`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: brandata F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 41 行.
+
+[ 2018-03-23T13:30:03+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000997s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002795s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `p39_brand`  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: brandata F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 41 行.
+
+[ 2018-03-23T13:30:04+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001934s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001773s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `p39_brand`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: brandata F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 41 行.
+
+[ 2018-03-23T13:30:06+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000962s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001487s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `p39_brand`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: brandata F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 41 行.
+
+[ 2018-03-23T13:30:07+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001472s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `p39_brand`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: brandata F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 41 行.
+
+[ 2018-03-23T13:30:08+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000946s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001459s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0515s ]
+SQL: SELECT * FROM `p39_brand`  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: brandata F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 41 行.
+
+[ 2018-03-23T13:30:09+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001501s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `p39_brand`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: brandata F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 41 行.
+
+[ 2018-03-23T13:30:10+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001021s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001522s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `p39_brand`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: brandata F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 41 行.
+
+[ 2018-03-23T13:30:11+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `p39_brand`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: brandata F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 41 行.
+
+[ 2018-03-23T13:30:12+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000944s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001476s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `p39_brand`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: brandata F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 41 行.
+
+[ 2018-03-23T13:30:13+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000877s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001394s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `p39_brand`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: brandata F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 41 行.
+
+[ 2018-03-23T13:30:14+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001856s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `p39_brand`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: brandata F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 41 行.
+
+[ 2018-03-23T13:30:29+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `p39_brand`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: brandata F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 41 行.
+
+[ 2018-03-23T13:30:30+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000805s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001204s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `p39_brand`  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: brandata F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 41 行.
+
+[ 2018-03-23T13:30:31+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001201s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `p39_brand`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: brandata F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 41 行.
+
+[ 2018-03-23T13:30:32+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001180s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `p39_brand`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: brandata F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 41 行.
+
+[ 2018-03-23T13:30:33+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000800s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001192s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `p39_brand`  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: brandata F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 41 行.
+
+[ 2018-03-23T13:30:34+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000881s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001282s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `p39_brand`  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: brandata F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 41 行.
+
+[ 2018-03-23T13:30:35+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000841s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001151s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `p39_brand`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: brandata F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 41 行.
+
+[ 2018-03-23T13:30:36+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001695s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `p39_brand`  [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: brandata F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 41 行.
+
+[ 2018-03-23T13:31:17+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005344s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `p39_brand`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: brandata F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 41 行.
+
+[ 2018-03-23T13:31:21+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000827s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001274s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `p39_brand`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: brandata F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 41 行.
+
+[ 2018-03-23T13:31:32+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000821s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001152s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `p39_brand`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: brandata F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 41 行.
+
+[ 2018-03-23T13:31:33+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000814s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001232s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `p39_brand`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: brandata F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 41 行.
+
+[ 2018-03-23T13:31:34+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000841s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001182s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `p39_brand`  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: brandata F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 41 行.
+
+[ 2018-03-23T13:31:35+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000813s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001174s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `p39_brand`  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: brandata F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 41 行.
+
+[ 2018-03-23T13:31:36+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000813s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001202s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `p39_brand`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: brandata F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 41 行.
+
+[ 2018-03-23T13:31:37+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000903s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001224s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `p39_brand`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: brandata F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 41 行.
+
+[ 2018-03-23T13:32:04+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000940s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001389s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `p39_brand`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: brandata F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 41 行.
+
+[ 2018-03-23T13:32:07+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001264s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `p39_brand`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: brandata F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 41 行.
+
+[ 2018-03-23T13:34:09+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000943s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001422s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `p39_brand`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: brandata F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 42 行.
+
+[ 2018-03-23T13:34:58+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001385s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0060s ]
+
+[ 2018-03-23T13:35:03+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000891s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001265s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0062s ]
+
+[ 2018-03-23T13:35:22+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000184s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001375s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `p39_brand`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: brandata F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 42 行.
+
+[ 2018-03-23T13:35:48+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000806s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001137s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `p39_brand`  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: brandata F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 42 行.
+
+[ 2018-03-23T13:35:52+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000814s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001243s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `p39_brand`  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: brandata F:\weblx\www\php39ds\Application\Admin\Controller\GoodsController.class.php 第 42 行.
+
+[ 2018-03-23T13:36:52+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000925s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001395s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `p39_brand`  [ RunTime:0.0003s ]
+
+[ 2018-03-23T13:37:00+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001898s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0309s ]
+SQL: SELECT * FROM `p39_brand`  [ RunTime:0.0003s ]
+
+[ 2018-03-23T13:38:08+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000854s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001164s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `p39_brand`  [ RunTime:0.0003s ]
+
+[ 2018-03-23T13:38:11+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001283s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `p39_brand`  [ RunTime:0.0006s ]
+
+[ 2018-03-23T13:38:25+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000174s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000945s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001152s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `p39_brand`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000406s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015460s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001549s ]
+
+[ 2018-03-23T13:38:50+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001189s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `p39_brand`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000662s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014081s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014285s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001004s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001191s ]
+
+[ 2018-03-23T13:39:14+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001512s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `p39_brand`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000427s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014378s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014575s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000979s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001163s ]
+
+[ 2018-03-23T13:42:52+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000970s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001532s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `p39_brand`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000386s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015121s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001652s ]
+
+[ 2018-03-23T13:43:32+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000804s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001123s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0068s ]
+NOTIC: [8] Undefined index: validate F:\weblx\www\php39ds\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\weblx\www\php39ds\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `p39_goods` (`brand_id`,`goods_name`,`market_price`,`shop_price`,`is_on_sale`,`goods_desc`,`addtime`) VALUES ('2','iphone6s','6000','5000','是','','2018-03-23 13:43:31') [ RunTime:0.0863s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000352s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025052s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025274s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000854s ]
+
+[ 2018-03-23T13:43:36+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001314s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0230s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p39_goods` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `p39_goods` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000417s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020947s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000978s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001168s ]
+
+[ 2018-03-23T13:43:48+08:00 ] 127.0.0.1 /index.php/Admin/Goods/edit/id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000828s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001152s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `p39_goods` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000400s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042617s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042866s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001162s ]
+
+[ 2018-03-23T13:44:06+08:00 ] 127.0.0.1 /index.php/Admin/Goods/edit/id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001380s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0067s ]
+NOTIC: [8] Undefined index: validate F:\weblx\www\php39ds\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\weblx\www\php39ds\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\weblx\www\php39ds\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SELECT `logo`,`mbig_logo`,`big_logo`,`mid_logo`,`sm_logo` FROM `p39_goods` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [2] unlink(./Public/Uploads/) [<a href='function.unlink'>function.unlink</a>]: Permission denied F:\weblx\www\php39ds\Application\Admin\Model\GoodsModel.class.php 第 100 行.
+NOTIC: [2] unlink(./Public/Uploads/) [<a href='function.unlink'>function.unlink</a>]: Permission denied F:\weblx\www\php39ds\Application\Admin\Model\GoodsModel.class.php 第 101 行.
+NOTIC: [2] unlink(./Public/Uploads/) [<a href='function.unlink'>function.unlink</a>]: Permission denied F:\weblx\www\php39ds\Application\Admin\Model\GoodsModel.class.php 第 102 行.
+NOTIC: [2] unlink(./Public/Uploads/) [<a href='function.unlink'>function.unlink</a>]: Permission denied F:\weblx\www\php39ds\Application\Admin\Model\GoodsModel.class.php 第 103 行.
+NOTIC: [2] unlink(./Public/Uploads/) [<a href='function.unlink'>function.unlink</a>]: Permission denied F:\weblx\www\php39ds\Application\Admin\Model\GoodsModel.class.php 第 104 行.
+SQL: UPDATE `p39_goods` SET `goods_name`='iphone6s',`market_price`='6000.00',`shop_price`='5000.00',`is_on_sale`='是',`goods_desc`='',`logo`='Goods/2018-03-23/5ab4942538697.JPG',`mbig_logo`='Goods/2018-03-23/mbig_5ab4942538697.JPG',`big_logo`='Goods/2018-03-23/big_5ab4942538697.JPG',`mid_logo`='Goods/2018-03-23/mid_5ab4942538697.JPG',`sm_logo`='Goods/2018-03-23/sm_5ab4942538697.JPG' WHERE `id` = 14 [ RunTime:0.0936s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000345s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020738s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020983s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002738s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002931s ]
+
+[ 2018-03-23T13:44:10+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003250s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0067s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p39_goods` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `p39_goods` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000191s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000410s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027588s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027829s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002601s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002781s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007694s ]
+

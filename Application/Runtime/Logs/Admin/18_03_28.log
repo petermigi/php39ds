@@ -1,0 +1,422 @@
+[ 2018-03-28T08:52:18+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000968s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001494s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.2547s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p39_goods` LIMIT 1   [ RunTime:0.0152s ]
+SQL: SELECT a.*,b.brand_name FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id  ORDER BY a.id desc LIMIT 0,5   [ RunTime:0.0579s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000418s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0063s ]
+SQL: SELECT `id`,`brand_name` FROM `p39_brand`  [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.117340s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.117616s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001287s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001639s ]
+
+[ 2018-03-28T08:52:48+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001015s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001499s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0071s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p39_goods` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT a.*,b.brand_name FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id  ORDER BY a.id desc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000411s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000646s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`brand_name` FROM `p39_brand`  [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033759s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002789s ]
+
+[ 2018-03-28T08:53:19+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst?brand_id=2&gn=&fp=&tp=&ios=&fa=&ta=&odby=id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000913s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001305s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0066s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p39_goods` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT a.*,b.brand_name FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id  ORDER BY a.id desc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000247s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000481s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0064s ]
+SQL: SELECT `id`,`brand_name` FROM `p39_brand`  [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034203s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001896s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003650s ]
+
+[ 2018-03-28T08:55:24+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst?brand_id=2&gn=&fp=&tp=&ios=&fa=&ta=&odby=id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001701s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0071s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p39_goods` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT a.*,b.brand_name FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id  ORDER BY a.id desc LIMIT 0,5   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000399s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0077s ]
+SQL: SELECT `id`,`brand_name` FROM `p39_brand`  [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037104s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037329s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001293s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002261s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002915s ]
+
+[ 2018-03-28T08:55:36+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst?brand_id=2&gn=&fp=&tp=&ios=&fa=&ta=&odby=id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001379s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0107s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p39_goods` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT a.*,b.brand_name FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id  ORDER BY a.id desc LIMIT 0,5   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000191s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000400s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0091s ]
+SQL: SELECT `id`,`brand_name` FROM `p39_brand`  [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032732s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032931s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002222s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004718s ]
+
+[ 2018-03-28T08:56:05+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001280s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000378s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0072s ]
+SQL: SELECT `id`,`brand_name` FROM `p39_brand`  [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.077501s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.077693s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001033s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001091s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001273s ]
+
+[ 2018-03-28T08:56:45+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst?brand_id=2&gn=&fp=&tp=&ios=&fa=&ta=&odby=id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000894s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001359s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0067s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p39_goods` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT a.*,b.brand_name FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id  ORDER BY a.id desc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000398s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0063s ]
+SQL: SELECT `id`,`brand_name` FROM `p39_brand`  [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030198s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030395s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001678s ]
+
+[ 2018-03-28T09:00:21+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst?brand_id=2&gn=&fp=&tp=&ios=&fa=&ta=&odby=id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003702s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0184s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p39_goods` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT a.*,b.brand_name FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id  ORDER BY a.id desc LIMIT 0,5   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000213s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0087s ]
+SQL: SELECT `id`,`brand_name` FROM `p39_brand`  [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032717s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032920s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003586s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002899s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003484s ]
+
+[ 2018-03-28T09:00:44+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000902s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001393s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p39_goods` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT a.*,b.brand_name FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id  ORDER BY a.id desc LIMIT 0,5   [ RunTime:0.0094s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000191s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0097s ]
+SQL: SELECT `id`,`brand_name` FROM `p39_brand`  [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033398s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003194s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003407s ]
+
+[ 2018-03-28T09:00:52+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst?brand_id=3&gn=&fp=&tp=&ios=&fa=&ta=&odby=id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000920s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001308s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0095s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p39_goods` LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT a.*,b.brand_name FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id  ORDER BY a.id desc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000412s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`brand_name` FROM `p39_brand`  [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038524s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038724s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001056s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001724s ]
+
+[ 2018-03-28T09:05:44+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst?brand_id=3&gn=&fp=&tp=&ios=&fa=&ta=&odby=id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001664s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0127s ]
+ERR: 1054:Unknown column 'a.brand_id' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `p39_goods` WHERE a.brand_id = '3' LIMIT 1  
+ERR: 1054:Unknown column 'a.brand_id' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `p39_goods` WHERE a.brand_id = '3' LIMIT 1  
+
+[ 2018-03-28T09:07:20+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001296s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0066s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p39_goods` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT a.*,b.brand_name FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id  ORDER BY a.id desc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0092s ]
+SQL: SELECT `id`,`brand_name` FROM `p39_brand`  [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032694s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032882s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001465s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001648s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001967s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002177s ]
+
+[ 2018-03-28T09:07:28+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst?brand_id=2&gn=&fp=&tp=&ios=&fa=&ta=&odby=id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000937s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001280s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0066s ]
+ERR: 1054:Unknown column 'a.brand_id' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `p39_goods` WHERE a.brand_id = '2' LIMIT 1  
+ERR: 1054:Unknown column 'a.brand_id' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `p39_goods` WHERE a.brand_id = '2' LIMIT 1  
+
+[ 2018-03-28T09:08:49+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000983s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002373s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p39_goods` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT a.*,b.brand_name FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id  ORDER BY a.id desc LIMIT 0,5   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000409s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0083s ]
+SQL: SELECT `id`,`brand_name` FROM `p39_brand`  [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031536s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031755s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005741s ]
+
+[ 2018-03-28T09:09:01+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst?brand_id=&gn=&fp=&tp=&ios=%E5%90%A6&fa=&ta=&odby=id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000933s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001268s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0067s ]
+ERR: 1054:Unknown column 'a.is_on_sale' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `p39_goods` WHERE a.is_on_sale = '否' LIMIT 1  
+ERR: 1054:Unknown column 'a.is_on_sale' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `p39_goods` WHERE a.is_on_sale = '否' LIMIT 1  
+
+[ 2018-03-28T09:18:04+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000993s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004105s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0073s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p39_goods` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT a.*,b.brand_name FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id  ORDER BY a.id desc LIMIT 0,5   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0079s ]
+SQL: SELECT `id`,`brand_name` FROM `p39_brand`  [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032314s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002245s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001741s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001940s ]
+
+[ 2018-03-28T09:18:12+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst?brand_id=3&gn=&fp=&tp=&ios=&fa=&ta=&odby=id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001553s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0064s ]
+ERR: 1054:Unknown column 'a.brand_id' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `p39_goods` WHERE a.brand_id = '3' LIMIT 1  
+ERR: 1054:Unknown column 'a.brand_id' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `p39_goods` WHERE a.brand_id = '3' LIMIT 1  
+
+[ 2018-03-28T09:22:29+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst?brand_id=2&gn=&fp=&tp=&ios=&fa=&ta=&odby=id_desc
+ERR: 1054:Unknown column 'a.brand_id' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `p39_goods` WHERE a.brand_id = '2' LIMIT 1  
+
+[ 2018-03-28T09:22:53+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst?brand_id=3&gn=&fp=&tp=&ios=&fa=&ta=&odby=id_desc
+ERR: 1054:Unknown column 'a.brand_id' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `p39_goods` WHERE a.brand_id = '3' LIMIT 1  
+
+[ 2018-03-28T09:25:48+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst?brand_id=&gn=123&fp=&tp=&ios=&fa=&ta=&odby=price_desc
+ERR: 1054:Unknown column 'a.goods_name' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `p39_goods` WHERE a.goods_name LIKE '%123%' LIMIT 1  
+
+[ 2018-03-28T09:27:43+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst?brand_id=2&gn=&fp=&tp=&ios=&fa=&ta=&odby=price_desc
+ERR: 1054:Unknown column 'a.brand_id' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `p39_goods` WHERE a.brand_id = '2' LIMIT 1  
+
+[ 2018-03-28T09:28:19+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst?brand_id=2&gn=&fp=&tp=&ios=&fa=&ta=&odby=price_desc
+ERR: 1054:Unknown column 'a.brand_id' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `p39_goods` WHERE a.brand_id = '2' LIMIT 1  
+
+[ 2018-03-28T09:33:08+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst?brand_id=2&gn=&fp=&tp=&ios=%E6%98%AF&fa=&ta=&odby=price_desc
+ERR: 1054:Unknown column 'a.is_on_sale' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `p39_goods` WHERE a.is_on_sale = '是' AND a.brand_id = '2' LIMIT 1  
+
+[ 2018-03-28T09:43:58+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst?brand_id=&gn=&fp=0&tp=50000&ios=&fa=&ta=&odby=id_desc
+ERR: 1054:Unknown column 'a.shop_price' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `p39_goods` WHERE a.shop_price <= '50000' LIMIT 1  
+
+[ 2018-03-28T09:49:28+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst?brand_id=&gn=&fp=&tp=&ios=%E6%98%AF&fa=&ta=&odby=id_desc
+ERR: 1054:Unknown column 'a.is_on_sale' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `p39_goods` WHERE a.is_on_sale = '是' LIMIT 1  
+
+[ 2018-03-28T14:17:37+08:00 ] 127.0.0.1 /index.php/Admin/MemberLevel/add.html
+ERR: 1264:Out of range value for column 'jifen_top' at row 1
+ [ SQL语句 ] : INSERT INTO `p39_member_level` (`level_name`,`jifen_bottom`,`jifen_top`) VALUES ('VIP','20001','2147483647')
+
+[ 2018-03-28T14:18:00+08:00 ] 127.0.0.1 /index.php/Admin/MemberLevel/add.html
+ERR: 1264:Out of range value for column 'jifen_top' at row 1
+ [ SQL语句 ] : INSERT INTO `p39_member_level` (`level_name`,`jifen_bottom`,`jifen_top`) VALUES ('VIP','20001','2147483647')
+
+[ 2018-03-28T14:18:19+08:00 ] 127.0.0.1 /index.php/Admin/MemberLevel/add.html
+ERR: 1264:Out of range value for column 'jifen_top' at row 1
+ [ SQL语句 ] : INSERT INTO `p39_member_level` (`level_name`,`jifen_bottom`,`jifen_top`) VALUES ('VIP','20001','2147483647')
+
+[ 2018-03-28T14:18:40+08:00 ] 127.0.0.1 /index.php/Admin/MemberLevel/add.html
+ERR: 1264:Out of range value for column 'jifen_top' at row 1
+ [ SQL语句 ] : INSERT INTO `p39_member_level` (`level_name`,`jifen_bottom`,`jifen_top`) VALUES ('VIP','20001','2147483647')
+

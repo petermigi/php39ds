@@ -1,0 +1,15 @@
+[ 2018-03-29T10:34:55+08:00 ] 127.0.0.1 /index.php/Admin/Index/goodsList.html
+ERR: 非法操作:goodsList
+
+[ 2018-03-29T10:39:32+08:00 ] 127.0.0.1 /index.php/Admin/Index/GII.html
+ERR: 非法操作:GII
+
+[ 2018-03-29T10:40:31+08:00 ] 127.0.0.1 /index.php/Admin/Memberlevel/lst.html
+ERR: 无法加载控制器:Memberlevel
+
+[ 2018-03-29T10:40:36+08:00 ] 127.0.0.1 /index.php/Admin/Memberlevel/lst.html
+ERR: 无法加载控制器:Memberlevel
+
+[ 2018-03-29T10:41:12+08:00 ] 127.0.0.1 /index.php/Admin/Memberlevel/lst.html
+ERR: 无法加载控制器:Memberlevel
+

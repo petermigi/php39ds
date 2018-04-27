@@ -1,0 +1,1866 @@
+[ 2018-04-24T14:06:53+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001625s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000706s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037343s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037648s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000988s ]
+
+[ 2018-04-24T14:06:58+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000806s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001151s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000355s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033470s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033724s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001183s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001365s ]
+
+[ 2018-04-24T14:07:00+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000818s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001275s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001512s ]
+
+[ 2018-04-24T14:07:11+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002187s ]
+SQL: SHOW COLUMNS FROM `p39_admin` [ RunTime:0.0957s ]
+NOTIC: [8] Undefined index: auto F:\weblx\www\php39ds\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `p39_admin` WHERE `username` = 'root' LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000462s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017507s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017804s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000836s ]
+
+[ 2018-04-24T14:07:14+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000934s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001182s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000335s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000563s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022715s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022928s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001219s ]
+
+[ 2018-04-24T14:07:16+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000807s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001148s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000356s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048515s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048771s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000994s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001285s ]
+
+[ 2018-04-24T14:07:17+08:00 ] 127.0.0.1 /index.php/Admin/Index/menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000797s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001405s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\weblx\www\php39ds\Application\Admin\Controller\IndexController.class.php 第 18 行.
+SQL: SELECT * FROM p39_privilege [ RunTime:0.1226s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000239s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000491s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040216s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040530s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001169s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001387s ]
+
+[ 2018-04-24T14:07:19+08:00 ] 127.0.0.1 /index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000906s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001420s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000351s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045976s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046308s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001078s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001223s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001402s ]
+
+[ 2018-04-24T14:07:23+08:00 ] 127.0.0.1 /index.php/Admin/Category/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001272s ]
+SQL: SELECT COUNT(*) has FROM p39_privilege [ RunTime:0.0537s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000231s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000591s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072883s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000998s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001328s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002751s ]
+
+[ 2018-04-24T14:07:30+08:00 ] 127.0.0.1 /index.php/Admin/Category/edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000822s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001200s ]
+SQL: SELECT COUNT(*) has FROM p39_privilege [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `p39_category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000364s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014148s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014367s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001261s ]
+
+[ 2018-04-24T14:07:42+08:00 ] 127.0.0.1 /index.php/Admin/Category/edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000854s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001181s ]
+SQL: SELECT COUNT(*) has FROM p39_privilege [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0072s ]
+NOTIC: [8] Undefined index: validate F:\weblx\www\php39ds\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\weblx\www\php39ds\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `p39_category` SET `parent_id`='0',`cat_name`='家用电器',`is_floor`='是' WHERE `id` = 1 [ RunTime:0.1792s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000211s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000560s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022290s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022759s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000921s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001244s ]
+
+[ 2018-04-24T14:07:46+08:00 ] 127.0.0.1 /index.php/Admin/Category/lst/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001575s ]
+SQL: SELECT COUNT(*) has FROM p39_privilege [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000345s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023204s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023511s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000764s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001262s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001500s ]
+
+[ 2018-04-24T14:07:50+08:00 ] 127.0.0.1 /index.php/Admin/Category/edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001261s ]
+SQL: SELECT COUNT(*) has FROM p39_privilege [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `p39_category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000361s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014406s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000949s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001131s ]
+
+[ 2018-04-24T14:08:02+08:00 ] 127.0.0.1 /index.php/Admin/Category/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001849s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001303s ]
+SQL: SELECT COUNT(*) has FROM p39_privilege [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000343s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023373s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023593s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000850s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001228s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001432s ]
+
+[ 2018-04-24T14:08:10+08:00 ] 127.0.0.1 /index.php/Admin/Category/edit/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001135s ]
+SQL: SELECT COUNT(*) has FROM p39_privilege [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `p39_category` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000357s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014553s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000964s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001217s ]
+
+[ 2018-04-24T14:08:15+08:00 ] 127.0.0.1 /index.php/Admin/Category/edit/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001215s ]
+SQL: SELECT COUNT(*) has FROM p39_privilege [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0063s ]
+NOTIC: [8] Undefined index: validate F:\weblx\www\php39ds\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\weblx\www\php39ds\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `p39_category` SET `parent_id`='0',`cat_name`='手机、数码、京东通信',`is_floor`='是' WHERE `id` = 2 [ RunTime:0.0683s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000210s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000557s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022609s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001266s ]
+
+[ 2018-04-24T14:08:18+08:00 ] 127.0.0.1 /index.php/Admin/Category/lst/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000800s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001221s ]
+SQL: SELECT COUNT(*) has FROM p39_privilege [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000337s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022926s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023155s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001527s ]
+
+[ 2018-04-24T14:08:52+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001383s ]
+SQL: SELECT COUNT(*) has FROM p39_privilege [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0072s ]
+SQL: SELECT COUNT(*) AS tp_count FROM p39_goods a LIMIT 1   [ RunTime:0.0235s ]
+SQL: SELECT a.*,b.brand_name,c.cat_name,GROUP_CONCAT(e.cat_name SEPARATOR "<br />") ext_cat_name FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id         
+                LEFT JOIN p39_category c ON a.cat_id=c.id
+                LEFT JOIN p39_goods_cat d ON a.id=d.goods_id
+                LEFT JOIN p39_category e ON d.cat_id=e.id  GROUP BY a.id ORDER BY a.id desc LIMIT 0,5   [ RunTime:0.1479s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000351s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000774s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0108s ]
+SQL: SELECT `id`,`brand_name` FROM `p39_brand`  [ RunTime:0.0008s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.124300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.124722s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001667s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001258s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001498s ]
+
+[ 2018-04-24T14:08:58+08:00 ] 127.0.0.1 /index.php/Admin/Goods/edit/id/19.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000954s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001467s ]
+SQL: SELECT COUNT(*) has FROM p39_privilege [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `p39_goods` WHERE `id` = 19 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p39_goods_cat` [ RunTime:0.0059s ]
+SQL: SELECT `cat_id` FROM `p39_goods_cat` WHERE `goods_id` = '19'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `p39_attribute` [ RunTime:0.0795s ]
+SQL: SELECT a.id attr_id,a.attr_name,a.attr_type,a.attr_option_values,b.attr_value,b.id FROM p39_attribute a LEFT JOIN p39_goods_attr b ON (a.id=b.attr_id AND b.goods_id=19)  WHERE a.type_id = '0'  [ RunTime:0.0157s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000618s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000984s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0135s ]
+SQL: SELECT `id`,`brand_name` FROM `p39_brand`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: mlData F:\weblx\www\php39ds\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 183 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 183 行.
+SQL: SHOW COLUMNS FROM `p39_type` [ RunTime:0.0545s ]
+SQL: SELECT `id`,`type_name` FROM `p39_type`  [ RunTime:0.0008s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.154144s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.154588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001537s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001887s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002245s ]
+
+[ 2018-04-24T14:09:22+08:00 ] 127.0.0.1 /index.php/Admin/Goods/edit/id/19.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002099s ]
+SQL: SELECT COUNT(*) has FROM p39_privilege [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0075s ]
+NOTIC: [8] Undefined index: validate F:\weblx\www\php39ds\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\weblx\www\php39ds\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0065s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Admin\Model\GoodsModel.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `p39_goods_cat` [ RunTime:0.0060s ]
+SQL: DELETE FROM `p39_goods_cat` WHERE `goods_id` = 19 [ RunTime:0.0596s ]
+NOTIC: [8] Use of undefined constant ecid - assumed 'ecid' F:\weblx\www\php39ds\Application\Admin\Model\GoodsModel.class.php 第 91 行.
+SQL: INSERT INTO `p39_goods_cat` (`cat_id`,`goods_id`) VALUES ('16','19') [ RunTime:0.0725s ]
+SQL: INSERT INTO `p39_goods_cat` (`cat_id`,`goods_id`) VALUES ('17','19') [ RunTime:0.0165s ]
+SQL: INSERT INTO `p39_goods_cat` (`cat_id`,`goods_id`) VALUES ('20','19') [ RunTime:0.0228s ]
+SQL: UPDATE `p39_goods` SET `cat_id`='16',`brand_id`='0',`goods_name`='新的联想商品',`market_price`='0.00',`shop_price`='0.00',`is_on_sale`='是',`promote_price`='300',`promote_start_date`='2018-04-24 14:09',`promote_end_date`='2018-04-24 23:09',`is_new`='否',`is_best`='否',`is_hot`='是',`is_floor`='否',`sort_num`='110',`goods_desc`='',`type_id`='0' WHERE `id` = 19 [ RunTime:0.0338s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000324s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020369s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000735s ]
+
+[ 2018-04-24T14:09:25+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000928s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001165s ]
+SQL: SELECT COUNT(*) has FROM p39_privilege [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0074s ]
+SQL: SELECT COUNT(*) AS tp_count FROM p39_goods a LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT a.*,b.brand_name,c.cat_name,GROUP_CONCAT(e.cat_name SEPARATOR "<br />") ext_cat_name FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id         
+                LEFT JOIN p39_category c ON a.cat_id=c.id
+                LEFT JOIN p39_goods_cat d ON a.id=d.goods_id
+                LEFT JOIN p39_category e ON d.cat_id=e.id  GROUP BY a.id ORDER BY a.id desc LIMIT 0,5   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000407s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0065s ]
+SQL: SELECT `id`,`brand_name` FROM `p39_brand`  [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030587s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030798s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000837s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001004s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001206s ]
+
+[ 2018-04-24T14:24:07+08:00 ] 127.0.0.1 /index.php/Admin/Category/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001209s ]
+SQL: SELECT COUNT(*) has FROM p39_privilege [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000340s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024071s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000790s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001081s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001276s ]
+
+[ 2018-04-24T14:24:17+08:00 ] 127.0.0.1 /index.php/Admin/Category/edit/id/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000967s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001137s ]
+SQL: SELECT COUNT(*) has FROM p39_privilege [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `p39_category` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000388s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022449s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001147s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001351s ]
+
+[ 2018-04-24T14:24:25+08:00 ] 127.0.0.1 /index.php/Admin/Category/edit/id/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002218s ]
+SQL: SELECT COUNT(*) has FROM p39_privilege [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0065s ]
+NOTIC: [8] Undefined index: validate F:\weblx\www\php39ds\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\weblx\www\php39ds\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `p39_category` SET `parent_id`='0',`cat_name`='营养保健',`is_floor`='是' WHERE `id` = 12 [ RunTime:0.0949s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000335s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013978s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000813s ]
+
+[ 2018-04-24T14:24:28+08:00 ] 127.0.0.1 /index.php/Admin/Category/lst/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001165s ]
+SQL: SELECT COUNT(*) has FROM p39_privilege [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000335s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024142s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024385s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001599s ]
+
+[ 2018-04-24T14:27:33+08:00 ] 127.0.0.1 /index.php/Admin/Category/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000939s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001439s ]
+SQL: SELECT COUNT(*) has FROM p39_privilege [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000379s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025173s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001775s ]
+
+[ 2018-04-24T16:27:48+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001827s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000330s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014323s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014582s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001651s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001893s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001663s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001856s ]
+
+[ 2018-04-24T16:27:50+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001825s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000351s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017090s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017306s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001356s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001755s ]
+
+[ 2018-04-24T16:27:51+08:00 ] 127.0.0.1 /index.php/Admin/Index/menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001920s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\weblx\www\php39ds\Application\Admin\Controller\IndexController.class.php 第 18 行.
+SQL: SELECT * FROM p39_privilege [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000427s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017947s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018181s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001681s ]
+
+[ 2018-04-24T16:27:53+08:00 ] 127.0.0.1 /index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001468s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000369s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029533s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000929s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001450s ]
+
+[ 2018-04-24T16:27:58+08:00 ] 127.0.0.1 /index.php/Admin/Category/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002144s ]
+SQL: SELECT COUNT(*) has FROM p39_privilege [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000351s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025351s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025585s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000923s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001515s ]
+
+[ 2018-04-24T16:28:04+08:00 ] 127.0.0.1 /index.php/Admin/Category/edit/id/19.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001391s ]
+SQL: SELECT COUNT(*) has FROM p39_privilege [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `p39_category` WHERE `id` = 19 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000363s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014308s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014556s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000949s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001131s ]
+
+[ 2018-04-24T16:28:10+08:00 ] 127.0.0.1 /index.php/Admin/Category/edit/id/19.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001192s ]
+SQL: SELECT COUNT(*) has FROM p39_privilege [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0069s ]
+NOTIC: [8] Undefined index: validate F:\weblx\www\php39ds\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\weblx\www\php39ds\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `p39_category` SET `parent_id`='1',`cat_name`='个护健康',`is_floor`='是' WHERE `id` = 19 [ RunTime:0.1049s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000342s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012943s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013191s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000735s ]
+
+[ 2018-04-24T16:28:13+08:00 ] 127.0.0.1 /index.php/Admin/Category/lst/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001223s ]
+SQL: SELECT COUNT(*) has FROM p39_privilege [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000352s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027025s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027267s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000905s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002774s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003072s ]
+
+[ 2018-04-24T16:28:39+08:00 ] 127.0.0.1 /index.php/Admin/Category/edit/id/20.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000947s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001819s ]
+SQL: SELECT COUNT(*) has FROM p39_privilege [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `p39_category` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000371s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022917s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023189s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001655s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001721s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001915s ]
+
+[ 2018-04-24T16:28:45+08:00 ] 127.0.0.1 /index.php/Admin/Category/edit/id/20.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001708s ]
+SQL: SELECT COUNT(*) has FROM p39_privilege [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0064s ]
+NOTIC: [8] Undefined index: validate F:\weblx\www\php39ds\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\weblx\www\php39ds\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `p39_category` SET `parent_id`='1',`cat_name`='五金家装',`is_floor`='是' WHERE `id` = 20 [ RunTime:0.0633s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000211s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000551s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025198s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001973s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002343s ]
+
+[ 2018-04-24T16:28:48+08:00 ] 127.0.0.1 /index.php/Admin/Category/lst/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000930s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002093s ]
+SQL: SELECT COUNT(*) has FROM p39_privilege [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000349s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025469s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001346s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002325s ]
+
+[ 2018-04-24T17:14:20+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001926s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000293s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000565s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015262s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001336s ]
+
+[ 2018-04-24T17:14:25+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000909s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002183s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000357s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015645s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015843s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001483s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001809s ]
+
+[ 2018-04-24T17:14:27+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000883s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002577s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001971s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002202s ]
+
+[ 2018-04-24T17:14:37+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000906s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002043s ]
+SQL: SHOW COLUMNS FROM `p39_admin` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: auto F:\weblx\www\php39ds\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `p39_admin` WHERE `username` = 'root' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000328s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013799s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001347s ]
+
+[ 2018-04-24T17:14:40+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000917s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001819s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000354s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013371s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013598s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001294s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001473s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001795s ]
+
+[ 2018-04-24T17:14:42+08:00 ] 127.0.0.1 /index.php/Admin/Index/menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001417s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\weblx\www\php39ds\Application\Admin\Controller\IndexController.class.php 第 18 行.
+SQL: SELECT * FROM p39_privilege [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000190s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000397s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019489s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019685s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001572s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001816s ]
+
+[ 2018-04-24T17:14:44+08:00 ] 127.0.0.1 /index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000853s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001164s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000441s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030019s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030405s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001597s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001328s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001510s ]
+
+[ 2018-04-24T17:14:45+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000908s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002291s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000398s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023048s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023287s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001729s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001922s ]
+
+[ 2018-04-24T17:14:50+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002027s ]
+SQL: SELECT COUNT(*) has FROM p39_privilege [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0076s ]
+SQL: SELECT COUNT(*) AS tp_count FROM p39_goods a LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT a.*,b.brand_name,c.cat_name,GROUP_CONCAT(e.cat_name SEPARATOR "<br />") ext_cat_name FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id         
+                LEFT JOIN p39_category c ON a.cat_id=c.id
+                LEFT JOIN p39_goods_cat d ON a.id=d.goods_id
+                LEFT JOIN p39_category e ON d.cat_id=e.id  GROUP BY a.id ORDER BY a.id desc LIMIT 0,5   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000215s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000439s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0066s ]
+SQL: SELECT `id`,`brand_name` FROM `p39_brand`  [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034339s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001297s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001477s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001712s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001919s ]
+
+[ 2018-04-24T17:15:22+08:00 ] 127.0.0.1 /index.php/Admin/Goods/edit/id/18.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002213s ]
+SQL: SELECT COUNT(*) has FROM p39_privilege [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `p39_goods` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `p39_goods_cat` [ RunTime:0.0064s ]
+SQL: SELECT `cat_id` FROM `p39_goods_cat` WHERE `goods_id` = '18'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `p39_attribute` [ RunTime:0.0062s ]
+SQL: SELECT a.id attr_id,a.attr_name,a.attr_type,a.attr_option_values,b.attr_value,b.id FROM p39_attribute a LEFT JOIN p39_goods_attr b ON (a.id=b.attr_id AND b.goods_id=18)  WHERE a.type_id = '0'  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000368s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000578s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`brand_name` FROM `p39_brand`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: mlData F:\weblx\www\php39ds\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 183 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 183 行.
+SQL: SHOW COLUMNS FROM `p39_type` [ RunTime:0.0064s ]
+SQL: SELECT `id`,`type_name` FROM `p39_type`  [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047046s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001592s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002265s ]
+
+[ 2018-04-24T17:15:44+08:00 ] 127.0.0.1 /index.php/Admin/Goods/edit/id/18.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000895s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001430s ]
+SQL: SELECT COUNT(*) has FROM p39_privilege [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0072s ]
+NOTIC: [8] Undefined index: validate F:\weblx\www\php39ds\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\weblx\www\php39ds\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0061s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Admin\Model\GoodsModel.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `p39_goods_cat` [ RunTime:0.0061s ]
+SQL: DELETE FROM `p39_goods_cat` WHERE `goods_id` = 18 [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant ecid - assumed 'ecid' F:\weblx\www\php39ds\Application\Admin\Model\GoodsModel.class.php 第 91 行.
+SQL: UPDATE `p39_goods` SET `cat_id`='19',`brand_id`='0',`goods_name`='会员价格测试油瓶',`market_price`='300.00',`shop_price`='200.00',`is_on_sale`='是',`promote_price`='0.00',`promote_start_date`='0000-00-00 00:00:00',`promote_end_date`='0000-00-00 00:00:00',`is_new`='否',`is_best`='否',`is_hot`='是',`is_floor`='是',`sort_num`='100',`goods_desc`='',`type_id`='0' WHERE `id` = 18 [ RunTime:0.0797s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000365s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013308s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013514s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000898s ]
+
+[ 2018-04-24T17:15:48+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000848s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001202s ]
+SQL: SELECT COUNT(*) has FROM p39_privilege [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0097s ]
+SQL: SELECT COUNT(*) AS tp_count FROM p39_goods a LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT a.*,b.brand_name,c.cat_name,GROUP_CONCAT(e.cat_name SEPARATOR "<br />") ext_cat_name FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id         
+                LEFT JOIN p39_category c ON a.cat_id=c.id
+                LEFT JOIN p39_goods_cat d ON a.id=d.goods_id
+                LEFT JOIN p39_category e ON d.cat_id=e.id  GROUP BY a.id ORDER BY a.id desc LIMIT 0,5   [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000210s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0075s ]
+SQL: SELECT `id`,`brand_name` FROM `p39_brand`  [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034940s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035213s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001983s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002185s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001517s ]
+
+[ 2018-04-24T17:33:44+08:00 ] 127.0.0.1 /index.php/Admin/Goods/edit/id/18.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001392s ]
+SQL: SELECT COUNT(*) has FROM p39_privilege [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `p39_goods` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p39_goods_cat` [ RunTime:0.0099s ]
+SQL: SELECT `cat_id` FROM `p39_goods_cat` WHERE `goods_id` = '18'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p39_attribute` [ RunTime:0.0065s ]
+SQL: SELECT a.id attr_id,a.attr_name,a.attr_type,a.attr_option_values,b.attr_value,b.id FROM p39_attribute a LEFT JOIN p39_goods_attr b ON (a.id=b.attr_id AND b.goods_id=18)  WHERE a.type_id = '0'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000359s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000570s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0068s ]
+SQL: SELECT `id`,`brand_name` FROM `p39_brand`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: mlData F:\weblx\www\php39ds\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 183 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 183 行.
+SQL: SHOW COLUMNS FROM `p39_type` [ RunTime:0.0063s ]
+SQL: SELECT `id`,`type_name` FROM `p39_type`  [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045171s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045362s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001255s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001460s ]
+
+[ 2018-04-24T17:33:49+08:00 ] 127.0.0.1 /index.php/Admin/Goods/edit/id/18.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000943s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001411s ]
+SQL: SELECT COUNT(*) has FROM p39_privilege [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0076s ]
+NOTIC: [8] Undefined index: validate F:\weblx\www\php39ds\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\weblx\www\php39ds\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0064s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Admin\Model\GoodsModel.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `p39_goods_cat` [ RunTime:0.0066s ]
+SQL: DELETE FROM `p39_goods_cat` WHERE `goods_id` = 18 [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant ecid - assumed 'ecid' F:\weblx\www\php39ds\Application\Admin\Model\GoodsModel.class.php 第 91 行.
+SQL: UPDATE `p39_goods` SET `cat_id`='19',`brand_id`='0',`goods_name`='会员价格测试油瓶',`market_price`='300.00',`shop_price`='200.00',`is_on_sale`='是',`promote_price`='0.00',`promote_start_date`='0000-00-00 00:00:00',`promote_end_date`='0000-00-00 00:00:00',`is_new`='否',`is_best`='否',`is_hot`='是',`is_floor`='否',`sort_num`='100',`goods_desc`='',`type_id`='0' WHERE `id` = 18 [ RunTime:0.0890s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000230s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000641s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022614s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022977s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001002s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001324s ]
+
+[ 2018-04-24T17:33:53+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000796s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001253s ]
+SQL: SELECT COUNT(*) has FROM p39_privilege [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM p39_goods a LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT a.*,b.brand_name,c.cat_name,GROUP_CONCAT(e.cat_name SEPARATOR "<br />") ext_cat_name FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id         
+                LEFT JOIN p39_category c ON a.cat_id=c.id
+                LEFT JOIN p39_goods_cat d ON a.id=d.goods_id
+                LEFT JOIN p39_category e ON d.cat_id=e.id  GROUP BY a.id ORDER BY a.id desc LIMIT 0,5   [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000205s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000417s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0063s ]
+SQL: SELECT `id`,`brand_name` FROM `p39_brand`  [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032390s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032605s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000837s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001588s ]
+
+[ 2018-04-24T17:33:58+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000843s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001203s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000474s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012045s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001577s ]
+
+[ 2018-04-24T17:34:00+08:00 ] 127.0.0.1 /index.php/Admin/Index/menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000906s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001770s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\weblx\www\php39ds\Application\Admin\Controller\IndexController.class.php 第 18 行.
+SQL: SELECT * FROM p39_privilege [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000194s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000406s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018448s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018649s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001416s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001929s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002299s ]
+
+[ 2018-04-24T17:34:02+08:00 ] 127.0.0.1 /index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000885s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001415s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000382s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031235s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031514s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001921s ]
+
+[ 2018-04-24T17:34:03+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001272s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000406s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035048s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035376s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001154s ]
+
+[ 2018-04-24T17:34:33+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001246s ]
+SQL: SELECT COUNT(*) has FROM p39_privilege [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0074s ]
+SQL: SELECT COUNT(*) AS tp_count FROM p39_goods a LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT a.*,b.brand_name,c.cat_name,GROUP_CONCAT(e.cat_name SEPARATOR "<br />") ext_cat_name FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id         
+                LEFT JOIN p39_category c ON a.cat_id=c.id
+                LEFT JOIN p39_goods_cat d ON a.id=d.goods_id
+                LEFT JOIN p39_category e ON d.cat_id=e.id  GROUP BY a.id ORDER BY a.id desc LIMIT 0,5   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000423s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0066s ]
+SQL: SELECT `id`,`brand_name` FROM `p39_brand`  [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033877s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034115s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003211s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003701s ]
+
+[ 2018-04-24T17:34:49+08:00 ] 127.0.0.1 /index.php/Admin/Goods/edit/id/19.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000816s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001134s ]
+SQL: SELECT COUNT(*) has FROM p39_privilege [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `p39_goods` WHERE `id` = 19 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p39_goods_cat` [ RunTime:0.0060s ]
+SQL: SELECT `cat_id` FROM `p39_goods_cat` WHERE `goods_id` = '19'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `p39_attribute` [ RunTime:0.0064s ]
+SQL: SELECT a.id attr_id,a.attr_name,a.attr_type,a.attr_option_values,b.attr_value,b.id FROM p39_attribute a LEFT JOIN p39_goods_attr b ON (a.id=b.attr_id AND b.goods_id=19)  WHERE a.type_id = '0'  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000355s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000563s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0069s ]
+SQL: SELECT `id`,`brand_name` FROM `p39_brand`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: mlData F:\weblx\www\php39ds\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 183 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 183 行.
+SQL: SHOW COLUMNS FROM `p39_type` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`type_name` FROM `p39_type`  [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044249s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044484s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000863s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001597s ]
+
+[ 2018-04-24T17:34:54+08:00 ] 127.0.0.1 /index.php/Admin/Goods/edit/id/19.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000908s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+SQL: SELECT COUNT(*) has FROM p39_privilege [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate F:\weblx\www\php39ds\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\weblx\www\php39ds\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0067s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Admin\Model\GoodsModel.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `p39_goods_cat` [ RunTime:0.0067s ]
+SQL: DELETE FROM `p39_goods_cat` WHERE `goods_id` = 19 [ RunTime:0.0468s ]
+NOTIC: [8] Use of undefined constant ecid - assumed 'ecid' F:\weblx\www\php39ds\Application\Admin\Model\GoodsModel.class.php 第 91 行.
+SQL: INSERT INTO `p39_goods_cat` (`cat_id`,`goods_id`) VALUES ('16','19') [ RunTime:0.0492s ]
+SQL: INSERT INTO `p39_goods_cat` (`cat_id`,`goods_id`) VALUES ('17','19') [ RunTime:0.0229s ]
+SQL: INSERT INTO `p39_goods_cat` (`cat_id`,`goods_id`) VALUES ('20','19') [ RunTime:0.0423s ]
+SQL: UPDATE `p39_goods` SET `cat_id`='16',`brand_id`='0',`goods_name`='新的联想商品',`market_price`='0.00',`shop_price`='0.00',`is_on_sale`='是',`promote_price`='300.00',`promote_start_date`='2018-04-24 14:09:00',`promote_end_date`='2018-04-24 23:09:00',`is_new`='否',`is_best`='否',`is_hot`='是',`is_floor`='是',`sort_num`='110',`goods_desc`='',`type_id`='0' WHERE `id` = 19 [ RunTime:0.0253s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000360s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013242s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013443s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000730s ]
+
+[ 2018-04-24T17:34:57+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000965s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002046s ]
+SQL: SELECT COUNT(*) has FROM p39_privilege [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0108s ]
+SQL: SELECT COUNT(*) AS tp_count FROM p39_goods a LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT a.*,b.brand_name,c.cat_name,GROUP_CONCAT(e.cat_name SEPARATOR "<br />") ext_cat_name FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id         
+                LEFT JOIN p39_category c ON a.cat_id=c.id
+                LEFT JOIN p39_goods_cat d ON a.id=d.goods_id
+                LEFT JOIN p39_category e ON d.cat_id=e.id  GROUP BY a.id ORDER BY a.id desc LIMIT 0,5   [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000439s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000679s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0068s ]
+SQL: SELECT `id`,`brand_name` FROM `p39_brand`  [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039515s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000951s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002023s ]
+
+[ 2018-04-24T17:35:29+08:00 ] 127.0.0.1 /index.php/Admin/Goods/edit/id/18.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000995s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001306s ]
+SQL: SELECT COUNT(*) has FROM p39_privilege [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `p39_goods` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `p39_goods_cat` [ RunTime:0.0069s ]
+SQL: SELECT `cat_id` FROM `p39_goods_cat` WHERE `goods_id` = '18'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `p39_attribute` [ RunTime:0.0067s ]
+SQL: SELECT a.id attr_id,a.attr_name,a.attr_type,a.attr_option_values,b.attr_value,b.id FROM p39_attribute a LEFT JOIN p39_goods_attr b ON (a.id=b.attr_id AND b.goods_id=18)  WHERE a.type_id = '0'  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000375s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000608s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0061s ]
+SQL: SELECT `id`,`brand_name` FROM `p39_brand`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: mlData F:\weblx\www\php39ds\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 183 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 183 行.
+SQL: SHOW COLUMNS FROM `p39_type` [ RunTime:0.0066s ]
+SQL: SELECT `id`,`type_name` FROM `p39_type`  [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045784s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000964s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001117s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001373s ]
+
+[ 2018-04-24T17:35:33+08:00 ] 127.0.0.1 /index.php/Admin/Goods/edit/id/18.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000840s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001185s ]
+SQL: SELECT COUNT(*) has FROM p39_privilege [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate F:\weblx\www\php39ds\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\weblx\www\php39ds\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0065s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Admin\Model\GoodsModel.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `p39_goods_cat` [ RunTime:0.0062s ]
+SQL: DELETE FROM `p39_goods_cat` WHERE `goods_id` = 18 [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant ecid - assumed 'ecid' F:\weblx\www\php39ds\Application\Admin\Model\GoodsModel.class.php 第 91 行.
+SQL: UPDATE `p39_goods` SET `cat_id`='19',`brand_id`='0',`goods_name`='会员价格测试油瓶',`market_price`='300.00',`shop_price`='200.00',`is_on_sale`='是',`promote_price`='0.00',`promote_start_date`='0000-00-00 00:00:00',`promote_end_date`='0000-00-00 00:00:00',`is_new`='否',`is_best`='否',`is_hot`='是',`is_floor`='是',`sort_num`='100',`goods_desc`='',`type_id`='0' WHERE `id` = 18 [ RunTime:0.1102s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000351s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015473s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015770s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000737s ]
+
+[ 2018-04-24T17:35:36+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000881s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001187s ]
+SQL: SELECT COUNT(*) has FROM p39_privilege [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0077s ]
+SQL: SELECT COUNT(*) AS tp_count FROM p39_goods a LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT a.*,b.brand_name,c.cat_name,GROUP_CONCAT(e.cat_name SEPARATOR "<br />") ext_cat_name FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id         
+                LEFT JOIN p39_category c ON a.cat_id=c.id
+                LEFT JOIN p39_goods_cat d ON a.id=d.goods_id
+                LEFT JOIN p39_category e ON d.cat_id=e.id  GROUP BY a.id ORDER BY a.id desc LIMIT 0,5   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000265s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000514s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0069s ]
+SQL: SELECT `id`,`brand_name` FROM `p39_brand`  [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034487s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034702s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001116s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001337s ]
+
+[ 2018-04-24T17:36:28+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000799s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001206s ]
+SQL: SELECT COUNT(*) has FROM p39_privilege [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p39_member_level` [ RunTime:0.0552s ]
+SQL: SELECT * FROM `p39_member_level`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000318s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000579s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0064s ]
+SQL: SELECT `id`,`brand_name` FROM `p39_brand`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p39_type` [ RunTime:0.0062s ]
+SQL: SELECT `id`,`type_name` FROM `p39_type`  [ RunTime:0.0007s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042102s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042330s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001214s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001717s ]
+
+[ 2018-04-24T17:36:47+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000928s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004456s ]
+SQL: SELECT COUNT(*) has FROM p39_privilege [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate F:\weblx\www\php39ds\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000334s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014203s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014419s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001466s ]
+
+[ 2018-04-24T17:36:52+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000929s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001889s ]
+SQL: SELECT COUNT(*) has FROM p39_privilege [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p39_member_level` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `p39_member_level`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000293s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000539s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0066s ]
+SQL: SELECT `id`,`brand_name` FROM `p39_brand`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p39_type` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`type_name` FROM `p39_type`  [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042146s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042348s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001453s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001667s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001834s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002091s ]
+
+[ 2018-04-24T17:37:13+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001977s ]
+SQL: SELECT COUNT(*) has FROM p39_privilege [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0076s ]
+NOTIC: [8] Undefined index: validate F:\weblx\www\php39ds\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\weblx\www\php39ds\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1366:Incorrect decimal value: '' for column 'promote_price' at row 1
+ [ SQL语句 ] : INSERT INTO `p39_goods` (`cat_id`,`brand_id`,`goods_name`,`market_price`,`shop_price`,`is_on_sale`,`promote_price`,`promote_start_date`,`promote_end_date`,`is_new`,`is_best`,`is_hot`,`is_floor`,`sort_num`,`goods_desc`,`type_id`,`addtime`) VALUES ('16','0','楼层商品','0','0','是','','','','否','否','否','是','100','','0','2018-04-24 17:37:12')
+ERR: 1366:Incorrect decimal value: '' for column 'promote_price' at row 1
+ [ SQL语句 ] : INSERT INTO `p39_goods` (`cat_id`,`brand_id`,`goods_name`,`market_price`,`shop_price`,`is_on_sale`,`promote_price`,`promote_start_date`,`promote_end_date`,`is_new`,`is_best`,`is_hot`,`is_floor`,`sort_num`,`goods_desc`,`type_id`,`addtime`) VALUES ('16','0','楼层商品','0','0','是','','','','否','否','否','是','100','','0','2018-04-24 17:37:12')
+
+[ 2018-04-24T17:37:45+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000904s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001372s ]
+SQL: SELECT COUNT(*) has FROM p39_privilege [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0073s ]
+NOTIC: [8] Undefined index: validate F:\weblx\www\php39ds\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\weblx\www\php39ds\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1366:Incorrect decimal value: '' for column 'promote_price' at row 1
+ [ SQL语句 ] : INSERT INTO `p39_goods` (`cat_id`,`brand_id`,`goods_name`,`market_price`,`shop_price`,`is_on_sale`,`promote_price`,`promote_start_date`,`promote_end_date`,`is_new`,`is_best`,`is_hot`,`is_floor`,`sort_num`,`goods_desc`,`type_id`,`addtime`) VALUES ('16','0','楼层商品','0','0','是','','','','否','否','否','是','100','','0','2018-04-24 17:37:44')
+ERR: 1366:Incorrect decimal value: '' for column 'promote_price' at row 1
+ [ SQL语句 ] : INSERT INTO `p39_goods` (`cat_id`,`brand_id`,`goods_name`,`market_price`,`shop_price`,`is_on_sale`,`promote_price`,`promote_start_date`,`promote_end_date`,`is_new`,`is_best`,`is_hot`,`is_floor`,`sort_num`,`goods_desc`,`type_id`,`addtime`) VALUES ('16','0','楼层商品','0','0','是','','','','否','否','否','是','100','','0','2018-04-24 17:37:44')
+
+[ 2018-04-24T17:39:45+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001192s ]
+SQL: SELECT COUNT(*) has FROM p39_privilege [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0077s ]
+NOTIC: [8] Undefined index: validate F:\weblx\www\php39ds\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\weblx\www\php39ds\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1292:Incorrect datetime value: '' for column 'promote_start_date' at row 1
+ [ SQL语句 ] : INSERT INTO `p39_goods` (`cat_id`,`brand_id`,`goods_name`,`market_price`,`shop_price`,`is_on_sale`,`promote_price`,`promote_start_date`,`promote_end_date`,`is_new`,`is_best`,`is_hot`,`is_floor`,`sort_num`,`goods_desc`,`type_id`,`addtime`) VALUES ('16','0','楼层商品','0','0','是','0','','','否','否','否','是','100','','0','2018-04-24 17:39:43')
+ERR: 1292:Incorrect datetime value: '' for column 'promote_start_date' at row 1
+ [ SQL语句 ] : INSERT INTO `p39_goods` (`cat_id`,`brand_id`,`goods_name`,`market_price`,`shop_price`,`is_on_sale`,`promote_price`,`promote_start_date`,`promote_end_date`,`is_new`,`is_best`,`is_hot`,`is_floor`,`sort_num`,`goods_desc`,`type_id`,`addtime`) VALUES ('16','0','楼层商品','0','0','是','0','','','否','否','否','是','100','','0','2018-04-24 17:39:43')
+
+[ 2018-04-24T17:40:42+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000958s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001504s ]
+SQL: SELECT COUNT(*) has FROM p39_privilege [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0072s ]
+NOTIC: [8] Undefined index: validate F:\weblx\www\php39ds\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\weblx\www\php39ds\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `p39_goods` (`cat_id`,`brand_id`,`goods_name`,`market_price`,`shop_price`,`is_on_sale`,`promote_price`,`promote_start_date`,`promote_end_date`,`is_new`,`is_best`,`is_hot`,`is_floor`,`sort_num`,`goods_desc`,`type_id`,`addtime`) VALUES ('16','0','楼层商品','0','0','是','0','2018-04-24 17:40','2018-04-24 23:40','否','否','否','是','100','','0','2018-04-24 17:40:42') [ RunTime:0.0521s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0122s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Admin\Model\GoodsModel.class.php 第 375 行.
+NOTIC: [8] Use of undefined constant ecid - assumed 'ecid' F:\weblx\www\php39ds\Application\Admin\Model\GoodsModel.class.php 第 391 行.
+SQL: SHOW COLUMNS FROM `p39_goods_cat` [ RunTime:0.0118s ]
+SQL: INSERT INTO `p39_goods_cat` (`cat_id`,`goods_id`) VALUES ('19','20') [ RunTime:0.0265s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.0287s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000572s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027185s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003602s ]
+
+[ 2018-04-24T17:40:45+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001172s ]
+SQL: SELECT COUNT(*) has FROM p39_privilege [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM p39_goods a LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT a.*,b.brand_name,c.cat_name,GROUP_CONCAT(e.cat_name SEPARATOR "<br />") ext_cat_name FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id         
+                LEFT JOIN p39_category c ON a.cat_id=c.id
+                LEFT JOIN p39_goods_cat d ON a.id=d.goods_id
+                LEFT JOIN p39_category e ON d.cat_id=e.id  GROUP BY a.id ORDER BY a.id desc LIMIT 0,5   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000202s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000417s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0074s ]
+SQL: SELECT `id`,`brand_name` FROM `p39_brand`  [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034778s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000930s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001787s ]
+
+[ 2018-04-24T17:40:53+08:00 ] 127.0.0.1 /index.php/Admin/Goods/edit/id/20.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000835s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002036s ]
+SQL: SELECT COUNT(*) has FROM p39_privilege [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `p39_goods` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p39_goods_cat` [ RunTime:0.0061s ]
+SQL: SELECT `cat_id` FROM `p39_goods_cat` WHERE `goods_id` = '20'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `p39_attribute` [ RunTime:0.0072s ]
+SQL: SELECT a.id attr_id,a.attr_name,a.attr_type,a.attr_option_values,b.attr_value,b.id FROM p39_attribute a LEFT JOIN p39_goods_attr b ON (a.id=b.attr_id AND b.goods_id=20)  WHERE a.type_id = '0'  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000393s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000715s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0073s ]
+SQL: SELECT `id`,`brand_name` FROM `p39_brand`  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: mlData F:\weblx\www\php39ds\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 183 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 183 行.
+SQL: SHOW COLUMNS FROM `p39_type` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`type_name` FROM `p39_type`  [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046366s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001277s ]
+
+[ 2018-04-24T17:41:07+08:00 ] 127.0.0.1 /index.php/Admin/Goods/edit/id/20.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000806s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001131s ]
+SQL: SELECT COUNT(*) has FROM p39_privilege [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate F:\weblx\www\php39ds\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\weblx\www\php39ds\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0062s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Admin\Model\GoodsModel.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `p39_goods_cat` [ RunTime:0.0058s ]
+SQL: DELETE FROM `p39_goods_cat` WHERE `goods_id` = 20 [ RunTime:0.2208s ]
+NOTIC: [8] Use of undefined constant ecid - assumed 'ecid' F:\weblx\www\php39ds\Application\Admin\Model\GoodsModel.class.php 第 91 行.
+SQL: INSERT INTO `p39_goods_cat` (`cat_id`,`goods_id`) VALUES ('19','20') [ RunTime:0.1221s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000350s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020683s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020943s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003469s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003689s ]
+
+[ 2018-04-24T17:41:12+08:00 ] 127.0.0.1 /index.php/Admin/Goods/edit/id/20.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001821s ]
+SQL: SELECT COUNT(*) has FROM p39_privilege [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `p39_goods` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `p39_goods_cat` [ RunTime:0.0065s ]
+SQL: SELECT `cat_id` FROM `p39_goods_cat` WHERE `goods_id` = '20'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `p39_attribute` [ RunTime:0.0070s ]
+SQL: SELECT a.id attr_id,a.attr_name,a.attr_type,a.attr_option_values,b.attr_value,b.id FROM p39_attribute a LEFT JOIN p39_goods_attr b ON (a.id=b.attr_id AND b.goods_id=20)  WHERE a.type_id = '0'  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000361s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0063s ]
+SQL: SELECT `id`,`brand_name` FROM `p39_brand`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: mlData F:\weblx\www\php39ds\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 183 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 183 行.
+SQL: SHOW COLUMNS FROM `p39_type` [ RunTime:0.0065s ]
+SQL: SELECT `id`,`type_name` FROM `p39_type`  [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051964s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052154s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001809s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002021s ]
+
+[ 2018-04-24T17:41:24+08:00 ] 127.0.0.1 /index.php/Admin/Goods/edit/id/20.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000992s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001806s ]
+SQL: SELECT COUNT(*) has FROM p39_privilege [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0083s ]
+NOTIC: [8] Undefined index: validate F:\weblx\www\php39ds\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\weblx\www\php39ds\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0065s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\weblx\www\php39ds\Application\Admin\Model\GoodsModel.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `p39_goods_cat` [ RunTime:0.0057s ]
+SQL: DELETE FROM `p39_goods_cat` WHERE `goods_id` = 20 [ RunTime:0.0676s ]
+NOTIC: [8] Use of undefined constant ecid - assumed 'ecid' F:\weblx\www\php39ds\Application\Admin\Model\GoodsModel.class.php 第 91 行.
+SQL: INSERT INTO `p39_goods_cat` (`cat_id`,`goods_id`) VALUES ('19','20') [ RunTime:0.0466s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\weblx\www\php39ds\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SELECT `logo`,`mbig_logo`,`big_logo`,`mid_logo`,`sm_logo` FROM `p39_goods` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [2] unlink(./Public/Uploads/) [<a href='function.unlink'>function.unlink</a>]: Permission denied F:\weblx\www\php39ds\Application\Admin\Model\GoodsModel.class.php 第 154 行.
+NOTIC: [2] unlink(./Public/Uploads/) [<a href='function.unlink'>function.unlink</a>]: Permission denied F:\weblx\www\php39ds\Application\Admin\Model\GoodsModel.class.php 第 155 行.
+NOTIC: [2] unlink(./Public/Uploads/) [<a href='function.unlink'>function.unlink</a>]: Permission denied F:\weblx\www\php39ds\Application\Admin\Model\GoodsModel.class.php 第 156 行.
+NOTIC: [2] unlink(./Public/Uploads/) [<a href='function.unlink'>function.unlink</a>]: Permission denied F:\weblx\www\php39ds\Application\Admin\Model\GoodsModel.class.php 第 157 行.
+NOTIC: [2] unlink(./Public/Uploads/) [<a href='function.unlink'>function.unlink</a>]: Permission denied F:\weblx\www\php39ds\Application\Admin\Model\GoodsModel.class.php 第 158 行.
+SQL: UPDATE `p39_goods` SET `cat_id`='16',`brand_id`='0',`goods_name`='楼层商品',`market_price`='0.00',`shop_price`='0.00',`is_on_sale`='是',`promote_price`='0.00',`promote_start_date`='2018-04-24 17:40:00',`promote_end_date`='2018-04-24 23:40:00',`is_new`='否',`is_best`='否',`is_hot`='否',`is_floor`='是',`sort_num`='100',`goods_desc`='',`type_id`='0',`logo`='Goods/2018-04-24/5adefbc36ca5e.jpg',`mbig_logo`='Goods/2018-04-24/mbig_5adefbc36ca5e.jpg',`big_logo`='Goods/2018-04-24/big_5adefbc36ca5e.jpg',`mid_logo`='Goods/2018-04-24/mid_5adefbc36ca5e.jpg',`sm_logo`='Goods/2018-04-24/sm_5adefbc36ca5e.jpg' WHERE `id` = 20 [ RunTime:0.0810s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000222s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000620s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028866s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029152s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001381s ]
+
+[ 2018-04-24T17:41:27+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000959s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001951s ]
+SQL: SELECT COUNT(*) has FROM p39_privilege [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0084s ]
+SQL: SELECT COUNT(*) AS tp_count FROM p39_goods a LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT a.*,b.brand_name,c.cat_name,GROUP_CONCAT(e.cat_name SEPARATOR "<br />") ext_cat_name FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id         
+                LEFT JOIN p39_category c ON a.cat_id=c.id
+                LEFT JOIN p39_goods_cat d ON a.id=d.goods_id
+                LEFT JOIN p39_category e ON d.cat_id=e.id  GROUP BY a.id ORDER BY a.id desc LIMIT 0,5   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000422s ]
+SQL: SHOW COLUMNS FROM `p39_brand` [ RunTime:0.0062s ]
+SQL: SELECT `id`,`brand_name` FROM `p39_brand`  [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036273s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036490s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001291s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001467s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001701s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001906s ]
+
